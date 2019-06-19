@@ -1,0 +1,39 @@
+body {   
+    background: whitesmoke;
+    min-height: 200vh;
+}
+
+nav {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+#profil-img {
+    border-radius: 50%;
+}
+
+.logo {
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+#presentation-title {
+    text-shadow: 2px 2px 4px black;    
+}
+
+.thin-text {
+    font-weight: 300;
+    background: rgba(96,125, 139, 0.4);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.parallax {
+    width: 100%;
+}
+
+.parallax img {
+    object-fit: cover;
+    height: 100px;
+}
