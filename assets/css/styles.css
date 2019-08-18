@@ -37,3 +37,8 @@ nav {
     object-fit: cover;
     height: 100px;
 }
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: rgb(255, 255, 255);
+  }

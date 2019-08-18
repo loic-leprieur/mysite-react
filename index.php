@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets\css\styles.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png" />
     
     <!-- Compiled and minified JavaScript -->
     <script src="assets\js\jquery-3.3.1.min.js"></script>
@@ -25,17 +26,17 @@
           <a href="#!" class="brand-logo"><span class="logo grey-text text-lighten-2">Blog de Loïc LEPRIEUR</span></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Portofolio</a></li>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/portofolio.php">Portofolio</a></li>
             <li><a href="#">Infos</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/contact.php">Contact</a></li>
           </ul>
         </div>
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Portofolio</a></li>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/portofolio.php">Portofolio</a></li>
             <li><a href="#">Infos</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/contact.php">Contact</a></li>
         </ul>
     </nav>
 
@@ -108,7 +109,14 @@
                         <div class="divider"></div>
                         <span class="card-title">Leudelange, Luxembourg (3 mois)</span>
                         <p>Ajout de fontionnalités dans une application web en ASP.NET Forms à destination de courtiers d'assurances vie.
-                            Création de contrôles graphiques (listes, datepickers, tchat...) au sein d'une librairie PCL utilisée dans des projets Xamarin.Forms tel qu'un ChatBot.</p>
+                        Création de contrôles graphiques (listes, datepickers, tchat...) au sein d'une librairie PCL utilisée dans des projets Xamarin.Forms tel qu'un ChatBot.
+                        <ul>Fonctionnalités :
+                            <li>Listes contenant des images et des formulaires dans un format générique</li>
+                            <li>Composants de tableaux qui peuvent être triés et dont les lignes peuvent être déplacées</li>
+                            <li>Composant tchat bot avec un format de conversation et un moteur de génération de texte</li>
+                            <li>Composants de formulaires qui vérifient les entrées et enregistre les données de manière structurée</li>
+                        </ul>
+                        </p>
                     </div>
                 </div>            
             </div>
@@ -121,7 +129,19 @@
                         <h3 class="center-align">Book'u</h3>
                         <div class="divider"></div>
                         <span class="card-title">Kortrijk, Belgique (3 mois)</span>
-                        <p></p>
+                        <p>La start-up Book’u m'a recruté en tant que stagiaire avec 3 autres étudiants flammands de VIVES University College.
+                        La société développe une solution pour organiser des événements et avait besoin d'une équipe de développeurs pour faire une version mobile de leur site web and une version sous AngularJS.
+                        Le projet prenait place dans un contexte Français-Englais. Nous avons utilisé la méthodologie Agile - Scrum pendant tout le projet.
+                            <ul>
+                                Fonctionnalités :
+                                <li>Permettre aux organisateurs d'un événement de recruter du staff en focntion de leurs disponilités</li>
+                                <li>Implémentation d'un planning avec les tâches assignées à chaque collaborateur</li>
+                                <li>Envoyer un mail de confirmation à tous les collaborateurs avant le début d'un événement</li>
+                                <li>Lister les personnes à engager par nom et compétences</li>
+                                <li>Mettre en place une connexion sécurisé par jetons</li>
+                                <li>Ajouter un événement and être capable de le modifier avec le staff requis, le nom, le lieu...</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>            
             </div>
@@ -134,7 +154,20 @@
                         <h3 class="center-align">O-I Manufacturing</h3>
                         <div class="divider"></div>
                         <span class="card-title">Gironcourt-sur-Vraine (10 semaines)</span>
-                        <p></p>
+                        <p>O-I Manufacturing m'a engagé en tant que stagiarepour développer un intranet pour leur base documentaire. 
+                        Précédément ils utilisaient une application sous Microsoft Access mais
+                        il devenait obsolète et difficile à utiliser et à améliorer. J'ai appris le language ASP.NET MVC et j'ai proposé
+                        une solution avec cette technologie pour créer un site web local qui récupère les documents et les liste et permet de les télécharger
+                        <ul>
+                            Fonctionnalités :
+                            <li>Mettre en place une base de données avec une catégorie associée à chaque document</li>
+                            <li>Lister les documents disponibles sur le serveur et les ajouter ou les supprimer de la base de données</li>
+                            <li>Filter et trier les documents par categorie, nom, date</li>
+                            <li>Rechercher un document par une barre de recherche</li>
+                            <li>Sécuriser le site web avec un login and un mot de passe fort hashé pour différents utilisateurs (admin, utilisateurs normaux)</li>
+                            <li>Administrateurs peuvent ajouter de nouvelles catégories, supprimer des documents, ajouter des utlisateurs</li>
+                        </ul>
+                        </p>
                     </div>
                 </div>            
             </div>
