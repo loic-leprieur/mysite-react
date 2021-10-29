@@ -7,7 +7,7 @@
 				<img id="profile-img" src="\assets\img\profil.jpg"></img>
 			</div>
 			<div class="col s12 m7 l8 center-align white-text lignten-3-text">
-				<h4 id="title-job">Analyste&nbsp;développeur 24&nbsp;ans</h4>
+				<h4 id="title-job">Analyste&nbsp;développeur 25&nbsp;ans</h4>
 				<h4 id="profile-text" class="text-justify">
 					Passionné par les nouvelles technologies et l'apport au quotidien de chacun.
 				</h4>
@@ -78,14 +78,36 @@
 		<!--<h4 id="title-section">Expériences</h4>-->
 		
 		<div class="row">
+
 			<div class="col l3 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-kp1" class="card-background"></div>
-					<div class="card-content white-text">
+					<div class="card-content white-text" style="overflow:scroll;">
 						<div class="headline">
-							<h4 class="center-align card-title">KP1 / FB Software</h4>
+							<h4 class="center-align card-title">SII Est Strasbourg / Euro-Information Développement</h4>
+							<h5 class="center-align">Strasbourg</h5>
+							<h5 class="center-align">CDI de juillet 2021 à novembre 2021</h5>
+						</div>
+						
+						<div class="divider"></div>
+						<p>
+							Euro-Information Développement est la filiale technologique du groupe Crédit Mutuel-CIC. 
+						</p>
+						<p>
+							J'ai rejoint la partie monétique - recouvrement commerçant afin d'améliorer et de maintenir les applications
+							intranet en C# / ASP.NET (framework Devbooster) dont des solutions pour l'historisation des cartes et des transactions et le suspens / annulation des remises.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col l3 m6 s12">
+				<div class="card large indigo darken-4 z-depth-2">
+					<div id="card-background-kp1" class="card-background"></div>
+					<div class="card-content white-text" style="overflow:scroll;">
+						<div class="headline">
+							<h4 class="center-align card-title">2S2I Solutions / KP1</h4>
 							<h5 class="center-align">Chaumont</h5>
-							<h5 class="center-align">CDI de 2020 à aujourd'hui</h5>
+							<h5 class="center-align">CDI de janvier 2020 à avril 2021</h5>
 						</div>
 						
 						<div class="divider"></div>
@@ -105,7 +127,7 @@
 			<div class="col l3 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-switch" class="card-background"></div>
-					<div class="card-content white-text">
+					<div class="card-content white-text" style="overflow:scroll;">
 					<div class="headline">
 						<h4 class="center-align card-title">Switch IT</h4>
 						<h5 class="center-align">Leudelange, Luxembourg</h5>
@@ -128,7 +150,7 @@
 			<div class="col l3 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-booku" class="card-background"></div>
-					<div class="card-content white-text">
+					<div class="card-content white-text" style="overflow:scroll;">
 						<div class="headline">
     						<h4 class="center-align card-title">Book'u</h4>
     						<h5 class="center-align">Kortrijk, Belgique</h5>
@@ -151,7 +173,7 @@
 			<div class="col l3 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-oi" class="card-background"></div>
-					<div class="card-content white-text">
+					<div class="card-content white-text" style="overflow:scroll;">
 						<div class="headline">
 							<h4 class="center-align card-title">O-I Manufacturing</h4>
 							<h5 class="center-align">Gironcourt-sur-Vraine</h5>
