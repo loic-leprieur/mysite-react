@@ -261,6 +261,11 @@ nav ul a {
   	overflow: hidden;
 }
 
+#card-background-eid {
+	background-image: url(/assets/img/carte-bancaire.jpg);
+	overflow: hidden;
+}
+
 .card.small .card-action, .card.medium .card-action, .card.large .card-action {
 	position: inherit;
 }

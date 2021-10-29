@@ -81,7 +81,7 @@
 
 			<div class="col l3 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
-					<div id="card-background-kp1" class="card-background"></div>
+					<div id="card-background-eid" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
 						<div class="headline">
 							<h4 class="center-align card-title">SII Est Strasbourg / Euro-Information Développement</h4>
