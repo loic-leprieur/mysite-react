@@ -79,7 +79,7 @@
 		
 		<div class="row">
 
-			<div class="col l3 m6 s12">
+			<div class="col l4 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-eid" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
@@ -100,7 +100,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col l3 m6 s12">
+			<div class="col l4 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-kp1" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
@@ -124,7 +124,7 @@
 				</div>
 			</div>
 		
-			<div class="col l3 m6 s12">
+			<div class="col l4 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-switch" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
@@ -147,7 +147,7 @@
 				</div>
 			</div>
 
-			<div class="col l3 m6 s12">
+			<div class="col l6 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-booku" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
@@ -170,7 +170,7 @@
 				</div>
 			</div>
 
-			<div class="col l3 m6 s12">
+			<div class="col l6 m12 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-oi" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
