@@ -24,7 +24,7 @@
 	<!-- Navigation section -->
 	<nav>
 		<div class="nav-wrapper indigo darken-4">
-			<span class="align-center-small"> <a href="/www" class="brand-logo"> <span
+			<span class="align-center-small"> <a href="/" class="brand-logo"> <span
 					class="logo">L</span><span class="logo-text">oïc LEPRIEUR</span>
 			</a> <a href="#" data-target="mobile-demo" class="sidenav-trigger"> <i
 					class="material-icons">menu</i>
