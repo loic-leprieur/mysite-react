@@ -1,0 +1,296 @@
+/* Basic elements styles */
+body {
+    min-height: 100vh;
+    font-size: 1em;
+    min-width: 320px;
+  	text-overflow: hidden;
+}
+
+nav {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+a,
+nav a,
+nav ul a {
+	color : #ffab00;
+}
+
+@font-face{
+	font-family: "Old English Text MT";
+	src: url('/assets/fonts/OLDENGL.TTF');
+}
+
+/* Components styles from Nav */
+.logo {
+	font-family: "Old English Text MT";
+	margin-left: 10px;
+    color: #ffab00;
+}
+
+.logo-text {
+    font-weight: 300;
+    margin-left: 0px;
+    color: #ffab00;
+}
+
+/* Overriding styles of Materialize's basic elements */
+.container.min-container-space {
+	min-height: 68vh; /* Le contenu du body occupe au moins tout l'écran en comptant le nav et le footer */
+}
+
+.row {
+	margin-bottom: 0px;
+}
+
+
+
+@media screen {
+	.container {
+    	width: 100%;
+    	max-width: inherit;
+	} 
+	
+	#container-profile {
+		width: 70%;
+		max-width: 1280px;
+	}
+}
+
+@media screen and (max-width:600px){
+	#container-profile {
+		width: 100%;
+		
+	}
+}
+
+.section {
+	padding:0px;
+}
+
+/* Sidenav styles */
+.sidenav {
+    background-color: #1a237e;
+}
+
+.sidenav li>a {
+    color: #ffab00;
+    font-size: 1.5em;
+}
+
+.sidenav li>a>i,
+.sidenav li>a>[class^="mdi-"],
+.sidenav li>a li>a>[class*="mdi-"],
+.sidenav li>a>i.material-icons {
+	color: #ffab00;
+}
+
+
+/* Section des styles du profil */
+#title-section {
+	color: #ffab00;
+	margin-top: 1rem;
+}
+
+#profile-text {
+    text-shadow: 2px 2px 4px black;  
+    font-weight: 300;
+    background: rgba(96, 125, 139, 0.4);
+    padding: 10px;
+    border-radius: 10px;  
+}
+
+#title-job {
+	color: #ffab00;
+}
+
+@media screen and (max-width: 992px) {
+	.align-center-small {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 1666px) {
+	.row {
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-align: center;
+	    -webkit-align-items: center;
+	    -ms-flex-align: center;
+	    align-items: center;
+		
+	}
+}
+
+#profile-img {
+    border-radius: 50%;
+    max-height: 250px;
+    max-width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+@media screen and (max-width: 700px){
+	
+	#profile > div.row.valign-wrapper {
+		display: block;
+	}
+	
+	#title-job {
+		font-size: 1.5em;
+	}
+	
+	#profile-text {
+		font-size: 1.2em;
+	}
+	
+	#profile-img {
+	    border-radius: 50%;
+	    max-height: 150px;
+	    max-width: 100%;
+	    margin-top: 10px;
+	}
+}
+
+/* Parallax customization */
+.parallax-container {
+	margin-bottom: 0px;
+	overflow: hidden;
+	min-height:400px
+}
+
+.parallax {
+	z-index:1;
+}
+
+.parallax-container .parallax img {
+	opacity :inherit;
+	max-width: 600px;
+}
+
+#parallax-img1 {
+	transform: translate3d(-50%, 130.147px, 0px);
+}
+
+/* Carousel styles */
+.carousel-item {
+	padding: 0px;
+	text-align: justify;
+	position: relative;
+}
+
+.headline {
+	color: #ffab00;
+	text-shadow:0.5px 0.5px 1px #000000  ;
+}
+
+.carousel-content {
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	padding :8%;
+}
+
+.carousel-background {
+	position: relative;
+	height: 100%;
+	filter: blur(2px);
+   	-webkit-filter: blur(2px);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+
+#carousel-background-dueti {
+	background-image: url(/assets/img/vives-1.png);
+}
+
+#carousel-background-dut {
+	background-image: url(/assets/img/iut-1.jpg);
+}
+
+.card .card-content {
+	text-align: center;
+}
+
+.card-content {
+	position: absolute;
+  	top: 0;
+  	right: 0;
+  	padding :8%;
+}
+
+.card .card-content p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.card-background {
+	position: relative;
+	height: 100%;
+	filter: blur(2px);
+   	-webkit-filter: blur(2px);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	
+}
+
+#card-background-kp1 {
+	background-image: url(/assets/img/kp1-4.jpg);
+}
+
+#card-background-switch {
+	background-image: url(/assets/img/switch-1.jpg);
+}
+
+#card-background-booku {
+	background-image: url(/assets/img/booku-2.jpg);
+}
+
+#card-background-oi {
+	background-image: url(/assets/img/stage-dut.jpg);
+  	overflow: hidden;
+}
+
+#card-background-eid {
+	background-image: url(/assets/img/carte-bancaire.jpg);
+	overflow: hidden;
+}
+
+.card.small .card-action, .card.medium .card-action, .card.large .card-action {
+	position: inherit;
+}
+
+.card.small .card-image+.card-content, .card.medium .card-image+.card-content, .card.large .card-image+.card-content {
+	overflow: inherit;
+	max-height: inherit;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+	color: #ffab00;
+}
+
+.card-content > h3.center-align {
+	margin: 0px;
+}
+
+.card .card-image > img {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+}
+
+.card {
+	min-height: 740px;
+	vertical-align: middle;
+}
