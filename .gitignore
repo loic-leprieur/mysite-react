@@ -1,2 +1,5 @@
 /blog/*
 blog/*.*
+.vscode
+blog
+dbconfig
