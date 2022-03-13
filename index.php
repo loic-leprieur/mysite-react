@@ -79,7 +79,30 @@
 		
 		<div class="row">
 
-			<div class="col l3 m6 s12">
+
+			<div class="col l4 m6 s12">
+				<div class="card large indigo darken-4 z-depth-2">
+					<div id="card-background-lfaid" class="card-background"></div>
+					<div class="card-content white-text" style="overflow:scroll;">
+						<div class="headline">
+							<h4 class="center-align card-title">La Fabrik à ID</h4>
+							<h5 class="center-align">Bischeim</h5>
+							<h5 class="center-align">Janvier 2022</h5>
+						</div>
+						
+						<div class="divider"></div>
+						<p>
+							La start-up <strong>La Fabrik à ID</strong> travaille avec les concessionnaires automobile notamment Mercedes
+							pour la digitalisation du parcours client avec des scanners de plaques et un CRM intégré.
+						</p>
+						<p>
+							Bien que court, mon passage m'a permis de cerner les enjeux techniques et fonctionnels des solutions proposées et j'ai pu participer
+							à la mise en place du nouveau CRM en intégrant les composants de création de compte de vendeurs, la gestion des utilisateurs ou encore la création et la gestion d'équipes. 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col l4 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-eid" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
@@ -100,7 +123,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col l3 m6 s12">
+			<div class="col l4 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-kp1" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
@@ -124,7 +147,7 @@
 				</div>
 			</div>
 		
-			<div class="col l3 m6 s12">
+			<div class="col l4 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-switch" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
@@ -147,7 +170,7 @@
 				</div>
 			</div>
 
-			<div class="col l3 m6 s12">
+			<div class="col l4 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-booku" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
@@ -170,7 +193,7 @@
 				</div>
 			</div>
 
-			<div class="col l3 m6 s12">
+			<div class="col l4 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
 					<div id="card-background-oi" class="card-background"></div>
 					<div class="card-content white-text" style="overflow:scroll;">
