@@ -17,11 +17,7 @@
     	</div>
     </footer>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="\assets\js\jquery-3.5.1.min.js"></script>
-    <script src="\assets\js\materialize.min.js"></script>
-    
-    <!-- Custom JS scripts -->
+       <!-- Custom JS scripts -->
     <script src="\assets\js\main.js"></script>
 
 </body>
