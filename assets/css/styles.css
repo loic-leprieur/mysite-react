@@ -186,7 +186,7 @@ nav ul a {
 
 .headline {
 	color: #ffab00;
-	text-shadow:0.5px 0.5px 1px #ffb300  ;
+	text-shadow:0.5px 0.5px 1px #000000  ;
 }
 
 .carousel-content {
@@ -266,6 +266,11 @@ nav ul a {
 	overflow: hidden;
 }
 
+#card-background-lfaid {
+	background-image: url(/assets/img/mercedes.jpg);
+	overflow: hidden;
+}
+
 .card.small .card-action, .card.medium .card-action, .card.large .card-action {
 	position: inherit;
 }
@@ -281,4 +286,16 @@ nav ul a {
 
 .card-content > h3.center-align {
 	margin: 0px;
+}
+
+.card .card-image > img {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+}
+
+.card {
+	min-height: 740px;
+	vertical-align: middle;
 }
