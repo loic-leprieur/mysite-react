@@ -10,12 +10,18 @@
 
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="\assets\css\materialize.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-	rel="stylesheet">
-<link
-	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-	rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <link rel="stylesheet" href="\assets\css\styles.css" />
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+ 
 
 <link rel="icon" type="image/png" href="/favicon.png" />
 </head>
@@ -24,7 +30,7 @@
 	<!-- Navigation section -->
 	<nav>
 		<div class="nav-wrapper indigo darken-4">
-			<span class="align-center-small"> <a href="/www" class="brand-logo"> <span
+			<span class="align-center-small"> <a href="/" class="brand-logo"> <span
 					class="logo">L</span><span class="logo-text">oïc LEPRIEUR</span>
 			</a> <a href="#" data-target="mobile-demo" class="sidenav-trigger"> <i
 					class="material-icons">menu</i>
