@@ -79,6 +79,7 @@
 		
 		<div class="row">
 
+<<<<<<< HEAD
 
 			<div class="col l4 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">

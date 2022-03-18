@@ -2,9 +2,7 @@
     <div id="main">
 
         <div class="row">
-        
             <div class="col s12 m6 l4">
-
                 <div class="card">
                     <div class="card-image">
                         <img data-fancybox src="/assets/img/screenshot_appli_ShopNCook.jpg">
@@ -77,7 +75,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image">
