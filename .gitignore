@@ -2,4 +2,4 @@
 blog/*.*
 .vscode
 blog
-dbconfig
+dbconfig/config.php
