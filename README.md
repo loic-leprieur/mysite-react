@@ -1,3 +1,9 @@
-# MySite
+# Site personnel loic-leprieur.fr
 
-Portofolio and CV
+Site exposant mon CV, mon portofolio et un moyen de me joindre.
+
+Composants :
+- Materialize
+- jQuery
+
+Copyright Loïc LEPRIEUR
