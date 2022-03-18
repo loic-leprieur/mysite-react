@@ -48,10 +48,6 @@ nav ul a {
 
 
 @media screen {
-	.container {
-    	width: 100%;
-    	max-width: inherit;
-	} 
 	
 	#container-profile {
 		width: 70%;
@@ -161,7 +157,7 @@ nav ul a {
 .parallax-container {
 	margin-bottom: 0px;
 	overflow: hidden;
-	min-height:400px
+	min-height: 72vh;
 }
 
 .parallax {
@@ -213,6 +209,17 @@ nav ul a {
 
 #carousel-background-dut {
 	background-image: url(/assets/img/iut-1.jpg);
+}
+
+.card {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 400px;
+}
+
+.card-action {
+	height: 100%;
 }
 
 .card .card-content {
@@ -268,7 +275,7 @@ nav ul a {
 
 #card-background-lfaid {
 	background-image: url(/assets/img/mercedes.jpg);
-	overflow: hidden;
+	overflow:hidden;
 }
 
 .card.small .card-action, .card.medium .card-action, .card.large .card-action {
@@ -293,9 +300,4 @@ nav ul a {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 2%;
-}
-
-.card {
-	min-height: 740px;
-	vertical-align: middle;
 }
