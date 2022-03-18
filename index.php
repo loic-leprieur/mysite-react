@@ -27,7 +27,7 @@
 
 <!-- Content -->
 <div class="section grey darken-4">
-	<div class="container">
+	<div class="container" style="width:100%;">
 		<!-- <h4 id="title-section">Formation</h4> -->
     	<div class="carousel carousel-slider center">
     		<div id="carousel-item-dueti" class="carousel-item">
