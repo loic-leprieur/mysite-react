@@ -4,6 +4,8 @@ body {
     font-size: 1em;
     min-width: 320px;
   	text-overflow: hidden;
+	color: #000000;
+	text-shadow: 1px 1px 2px black;
 }
 
 nav {
@@ -15,7 +17,7 @@ nav {
 a,
 nav a,
 nav ul a {
-	color : #ffab00;
+	color : #FF8F00;
 }
 
 @font-face{
@@ -27,13 +29,13 @@ nav ul a {
 .logo {
 	font-family: "Old English Text MT";
 	margin-left: 10px;
-    color: #ffab00;
+    color: #FF8F00;
 }
 
 .logo-text {
     font-weight: 300;
     margin-left: 0px;
-    color: #ffab00;
+    color: #FF8F00;
 }
 
 /* Overriding styles of Materialize's basic elements */
@@ -72,11 +74,11 @@ nav ul a {
 
 /* Sidenav styles */
 .sidenav {
-    background-color: #1a237e;
+    background-color: #ffffff;
 }
 
 .sidenav li>a {
-    color: #ffab00;
+    color: #FF8F00;
     font-size: 1.5em;
 }
 
@@ -84,26 +86,26 @@ nav ul a {
 .sidenav li>a>[class^="mdi-"],
 .sidenav li>a li>a>[class*="mdi-"],
 .sidenav li>a>i.material-icons {
-	color: #ffab00;
+	color: #FF8F00;
 }
 
 
 /* Section des styles du profil */
 #title-section {
-	color: #ffab00;
+	color: #FF8F00;
 	margin-top: 1rem;
 }
 
 #profile-text {
     text-shadow: 2px 2px 4px black;  
     font-weight: 300;
-    background: rgba(96, 125, 139, 0.4);
+    background: rgba(189, 211, 222, 0.4);
     padding: 10px;
     border-radius: 10px;  
 }
 
 #title-job {
-	color: #ffab00;
+	color: #FF8F00;
 }
 
 @media screen and (max-width: 992px) {
@@ -185,7 +187,7 @@ nav ul a {
 }
 
 .headline {
-	color: #ffab00;
+	color: #FF8F00;
 	text-shadow:0.5px 0.5px 1px #000000  ;
 }
 
@@ -213,6 +215,10 @@ nav ul a {
 
 #carousel-background-dut {
 	background-image: url(/assets/img/iut-1.jpg);
+}
+
+.card {
+	color: black;
 }
 
 .card .card-content {
@@ -266,6 +272,11 @@ nav ul a {
 	overflow: hidden;
 }
 
+#card-background-lfaid {
+	background-image: url(/assets/img/mercedes.jpg);
+	overflow: hidden;
+}
+
 .card.small .card-action, .card.medium .card-action, .card.large .card-action {
 	position: inherit;
 }
@@ -276,7 +287,7 @@ nav ul a {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-	color: #ffab00;
+	color: #FF8F00;
 }
 
 .card-content > h3.center-align {

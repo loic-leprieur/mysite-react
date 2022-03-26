@@ -27,10 +27,10 @@
 <link rel="icon" type="image/png" href="/favicon.png" />
 </head>
 
-<body class="grey darken-4">
+<body class="white darken-4">
 	<!-- Navigation section -->
 	<nav>
-		<div class="nav-wrapper indigo darken-4">
+		<div class="nav-wrapper white darken-4">
 			<span class="align-center-small"> <a href="/" class="brand-logo"> <span
 					class="logo">L</span><span class="logo-text">oïc LEPRIEUR</span>
 			</a> <a href="#" data-target="mobile-demo" class="sidenav-trigger"> <i
@@ -45,7 +45,7 @@
 				<li><a href="/contact">Contact</a></li>
 			</ul>
 		</div>
-		<ul class="sidenav indigo darken-4" id="mobile-demo">
+		<ul class="sidenav white darken-4" id="mobile-demo">
 			<li><a href="/"><i class="medium material-icons">home</i>Accueil</a>
 			</li>
 			<li><a href="../blog"><i class="medium material-icons">speaker_notes</i>Blog</a>
