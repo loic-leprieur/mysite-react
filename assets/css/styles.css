@@ -3,8 +3,8 @@ body {
     min-height: 100vh;
     font-size: 1em;
     min-width: 320px;
-	text-shadow: 1px 1px 2px black;
-	color: white;
+	text-shadow: 1px 1px 2px #000;
+	color: #FFF;
 }
 
 nav {
@@ -14,7 +14,7 @@ nav {
 }
 
 footer {
-	text-shadow: 0px 0px 0px black;
+	text-shadow: 0px 0px 0px #000;
 }
 
 a,
@@ -73,7 +73,7 @@ nav ul a {
 
 /* Sidenav styles */
 .sidenav {
-    background-color: #1a237e;
+    background-color: #293640;
 }
 
 .sidenav li>a {
@@ -186,8 +186,8 @@ nav ul a {
 }
 
 .headline {
-	color: #FF8F00;
-	text-shadow:0.5px 0.5px 1px #000000  ;
+	color: #FFF;
+	text-shadow:0.5px 0.5px 1px #000  ;
 }
 
 .carousel-content {
@@ -257,34 +257,46 @@ nav ul a {
 }
 
 #card-background-kp1 {
-	background-image: url(/assets/img/kp1-4.jpg);
+	background-image: url(/assets/img/kp1-4.png);
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #card-background-switch {
-	background-image: url(/assets/img/switch-1.jpg);
+	background-image: url(/assets/img/switch-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #card-background-booku {
-	background-image: url(/assets/img/booku-2.jpg);
+	background-image: url(/assets/img/booku-2.png);
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #card-background-oi {
-	background-image: url(/assets/img/stage-dut.jpg);
+	background-image: url(/assets/img/stage-dut.png);
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
   	overflow: hidden;
 }
 
 #card-background-eid {
-	background-image: url(/assets/img/carte-bancaire.jpg);
+	background-image: url(/assets/img/carte-bancaire.png);
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
 }
 
 #card-background-lfaid {
-	background-image: url(/assets/img/mercedes.jpg);
+	background-image: url(/assets/img/mercedes.png);
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 	overflow:hidden;
 }
