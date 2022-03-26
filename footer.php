@@ -12,7 +12,7 @@
     	<div class="footer-copyright">
     		<div class="container black-text">
                 <span>©2018-<?php echo date("Y")?> - Loïc LEPRIEUR</span> 
-                <a class="right" href="https://twitter.com/loiclepr">Twitter</a>
+                <a class="right" href="https://twitter.com/le_lowick">Twitter - @le_lowick</a>
     		</div>
     	</div>
     </footer>
