@@ -27,7 +27,7 @@
 		</div>
 	</div>
 	<div class="parallax">
-		<img id="parallax-img1" src="\assets\img\programing-photo-1.jpg" alt="Photo d'un clavier" style="min-height:1000px;">
+		<img id="parallax-img1" src="\assets\img\programing-photo-1.png" alt="Photo d'un clavier" style="min-height:1000px;">
 	</div>
 </div>
 
