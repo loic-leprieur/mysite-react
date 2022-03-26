@@ -75,11 +75,7 @@
 
 <div class="section grey darken-4">
 	<div class="container">
-		<!--<h4 id="title-section">Expériences</h4>-->
-		
 		<div class="row">
-
-<<<<<<< HEAD
 
 			<div class="col l4 m6 s12">
 				<div class="card large indigo darken-4 z-depth-2">
@@ -213,7 +209,7 @@
 						<p>
 							Recruté en tant que stagiaire j'ai conçu une application ASP.NET qui récupère
 							les documents présents sur le serveur, les organise dans une base de données puis affiche un site en intranet
-							où chaque employé connecté peut rechercher, trier ou filter par des catégories les documents qu'il souhaite.
+							où chaque employé connecté peut rechercher, trier ou filtrer par des catégories les documents qu'il souhaite.
 						</p>
 					</div>
 				</div>
