@@ -3,7 +3,8 @@ body {
     min-height: 100vh;
     font-size: 1em;
     min-width: 320px;
-  	text-overflow: hidden;
+	text-shadow: 1px 1px 2px black;
+	color: white;
 }
 
 nav {
@@ -12,10 +13,14 @@ nav {
     width: 100%;
 }
 
+footer {
+	text-shadow: 0px 0px 0px black;
+}
+
 a,
 nav a,
 nav ul a {
-	color : #ffab00;
+	color : #FF8F00;
 }
 
 @font-face{
@@ -27,13 +32,13 @@ nav ul a {
 .logo {
 	font-family: "Old English Text MT";
 	margin-left: 10px;
-    color: #ffab00;
+    color: #FF8F00;
 }
 
 .logo-text {
     font-weight: 300;
     margin-left: 0px;
-    color: #ffab00;
+    color: #FF8F00;
 }
 
 /* Overriding styles of Materialize's basic elements */
@@ -72,7 +77,7 @@ nav ul a {
 }
 
 .sidenav li>a {
-    color: #ffab00;
+    color: #FF8F00;
     font-size: 1.5em;
 }
 
@@ -80,13 +85,13 @@ nav ul a {
 .sidenav li>a>[class^="mdi-"],
 .sidenav li>a li>a>[class*="mdi-"],
 .sidenav li>a>i.material-icons {
-	color: #ffab00;
+	color: #FF8F00;
 }
 
 
 /* Section des styles du profil */
 #title-section {
-	color: #ffab00;
+	color: #FF8F00;
 	margin-top: 1rem;
 }
 
@@ -99,7 +104,7 @@ nav ul a {
 }
 
 #title-job {
-	color: #ffab00;
+	color: #FF8F00;
 }
 
 @media screen and (max-width: 992px) {
@@ -181,7 +186,7 @@ nav ul a {
 }
 
 .headline {
-	color: #ffab00;
+	color: #FF8F00;
 	text-shadow:0.5px 0.5px 1px #000000  ;
 }
 
@@ -253,28 +258,34 @@ nav ul a {
 
 #card-background-kp1 {
 	background-image: url(/assets/img/kp1-4.jpg);
+	background-size: cover;
 }
 
 #card-background-switch {
 	background-image: url(/assets/img/switch-1.jpg);
+	background-size: cover;
 }
 
 #card-background-booku {
 	background-image: url(/assets/img/booku-2.jpg);
+	background-size: cover;
 }
 
 #card-background-oi {
 	background-image: url(/assets/img/stage-dut.jpg);
+	background-size: cover;
   	overflow: hidden;
 }
 
 #card-background-eid {
 	background-image: url(/assets/img/carte-bancaire.jpg);
+	background-size: cover;
 	overflow: hidden;
 }
 
 #card-background-lfaid {
 	background-image: url(/assets/img/mercedes.jpg);
+	background-size: cover;
 	overflow:hidden;
 }
 
@@ -288,7 +299,7 @@ nav ul a {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-	color: #ffab00;
+	color: #FF8F00;
 }
 
 .card-content > h3.center-align {

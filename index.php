@@ -33,42 +33,40 @@
 
 <!-- Content -->
 <div class="section grey darken-4">
-	<div class="container" style="width:100%;">
-    	<div class="carousel carousel-slider center">
-    		<div id="carousel-item-dueti" class="carousel-item">
-    			<div id="carousel-background-dueti" class="carousel-background"></div>
-    			<div class="carousel-content">
-    				<div class="headline">
-    					<h4 class="center-align">DUETI (Erasmus)</h4>
-        				<h4 class="center-align">2016-2017</h4>
-    				</div>
-        			<p class="white-text lignten-3-text">
-        				Séjour Erasmus+ en Belgique : perfectionnement à l'Anglais
-        				technique et conversationnel. Approfondissement de mes
-        				connaissances en développement web avec ASP.NET et Java EE et en
-        				développement mobile avec iOS (Swift) et Android (Java). Travaux
-        				individuels avec évaluation du tuteur et un projet de fin de
-        				semestre en groupe.
-        			</p>
-    			</div>
-    		</div>
-    		<div id="carousel-item-dut" class="carousel-item">
-    			<div id="carousel-background-dut" class="carousel-background"></div>
-    			<div class="carousel-content">
-    				<div class="headline">
-    					<h4 class="center-align">DUT Informatique</h4>
-    					<h4 class="center-align">2014-2016</h4>
-    				</div>
-    				<p class="white-text lignten-3-text">
-        				Curriculum : Algorithmie, programmation orientée objets,
-            			orientée machine, web, administration de systèmes Linux, création
-            			d'interfaces homme-machine, conception et gestion de bases de
-            			données relationnelles, comptabilité, économie et gestion de
-            			projets.
-    				</p>
-    			</div>
-    		</div>
-    	</div>
+	<div class="carousel carousel-slider center">
+		<div id="carousel-item-dueti" class="carousel-item">
+			<div id="carousel-background-dueti" class="carousel-background"></div>
+			<div class="carousel-content">
+				<div class="headline">
+					<h4 class="center-align">DUETI (Erasmus)</h4>
+					<h4 class="center-align">2016-2017</h4>
+				</div>
+				<p class="white-text lignten-3-text">
+					Séjour Erasmus+ en Belgique : perfectionnement à l'Anglais
+					technique et conversationnel. Approfondissement de mes
+					connaissances en développement web avec ASP.NET et Java EE et en
+					développement mobile avec iOS (Swift) et Android (Java). Travaux
+					individuels avec évaluation du tuteur et un projet de fin de
+					semestre en groupe.
+				</p>
+			</div>
+		</div>
+		<div id="carousel-item-dut" class="carousel-item">
+			<div id="carousel-background-dut" class="carousel-background"></div>
+			<div class="carousel-content">
+				<div class="headline">
+					<h4 class="center-align">DUT Informatique</h4>
+					<h4 class="center-align">2014-2016</h4>
+				</div>
+				<p class="white-text lignten-3-text">
+					Curriculum : Algorithmie, programmation orientée objets,
+					orientée machine, web, administration de systèmes Linux, création
+					d'interfaces homme-machine, conception et gestion de bases de
+					données relationnelles, comptabilité, économie et gestion de
+					projets.
+				</p>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -81,9 +79,8 @@
 <div class="section white darken-4">
 	<div class="row">
 		<div class="col l4 m6 s12">
-			<div class="card large white darken-4 z-depth-2">
-				<div id="card-background-lfaid" class="card-background"></div>
-				<div class="card-content black-text" style="overflow:scroll;">
+			<div id="card-background-lfaid" class="card large white darken-4 z-depth-2">
+				<div class="card-content" style="overflow:scroll;">
 					<div class="headline">
 						<h4 class="center-align card-title">La Fabrik à ID</h4>
 						<h5 class="center-align">Bischeim</h5>
@@ -103,9 +100,8 @@
 			</div>
 		</div>
 		<div class="col l4 m6 s12">
-			<div class="card large white darken-4 z-depth-2">
-				<div id="card-background-eid" class="card-background"></div>
-				<div class="card-content black-text" style="overflow:scroll;">
+			<div id="card-background-eid" class="card large white darken-4 z-depth-2">
+				<div class="card-content" style="overflow:scroll;">
 					<div class="headline">
 						<h4 class="center-align card-title">SII Est Strasbourg / Euro-Information Développement</h4>
 						<h5 class="center-align">Strasbourg</h5>
@@ -124,9 +120,8 @@
 			</div>
 		</div>
 		<div class="col l4 m6 s12">
-			<div class="card large white darken-4 z-depth-2">
-				<div id="card-background-kp1" class="card-background"></div>
-				<div class="card-content black-text" style="overflow:scroll;">
+			<div id="card-background-kp1" class="card large white darken-4 z-depth-2">
+				<div class="card-content" style="overflow:scroll;">
 					<div class="headline">
 						<h4 class="center-align card-title">2S2I Solutions / KP1</h4>
 						<h5 class="center-align">Chaumont</h5>
@@ -148,9 +143,8 @@
 		</div>
 
 		<div class="col l4 m6 s12">
-			<div class="card large white darken-4 z-depth-2">
-				<div id="card-background-switch" class="card-background"></div>
-				<div class="card-content black-text" style="overflow:scroll;">
+			<div id="card-background-switch" class="card large white darken-4 z-depth-2">
+				<div class="card-content" style="overflow:scroll;">
 				<div class="headline">
 					<h4 class="center-align card-title">Switch IT</h4>
 					<h5 class="center-align">Leudelange, Luxembourg</h5>
@@ -171,9 +165,8 @@
 		</div>
 
 		<div class="col l4 m6 s12">
-			<div class="card large white darken-4 z-depth-2">
-				<div id="card-background-booku" class="card-background"></div>
-				<div class="card-content black-text" style="overflow:scroll;">
+			<div id="card-background-booku" class="card large white darken-4 z-depth-2">
+				<div class="card-content" style="overflow:scroll;">
 					<div class="headline">
 						<h4 class="center-align card-title">Book'u</h4>
 						<h5 class="center-align">Kortrijk, Belgique</h5>
@@ -194,9 +187,8 @@
 		</div>
 
 		<div class="col l4 m6 s12">
-			<div class="card large white darken-4 z-depth-2">
-				<div id="card-background-oi" class="card-background"></div>
-				<div class="card-content black-text" style="overflow:scroll;">
+			<div id="card-background-oi" class="card large white darken-4 z-depth-2">
+				<div class="card-content" style="overflow:scroll;">
 					<div class="headline">
 						<h4 class="center-align card-title">O-I Manufacturing</h4>
 						<h5 class="center-align">Gironcourt-sur-Vraine</h5>
