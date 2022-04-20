@@ -3,3 +3,5 @@ blog/*.*
 .vscode
 blog
 dbconfig/config.php
+*.icloud
+.DS_Store
