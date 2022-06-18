@@ -3,8 +3,13 @@ body {
     min-height: 100vh;
     font-size: 1em;
     min-width: 320px;
-	text-shadow: 1px 1px 0.2 #000;
-	color: #FFF;
+	text-shadow: 1px 1px 0#000;
+	color: #fff;
+}
+
+.portfolio{
+	text-shadow: 1px 1px 0#fff;
+	color: #000;
 }
 
 nav {

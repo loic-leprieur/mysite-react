@@ -1,5 +1,5 @@
 <?php require 'header.php';?>
-    <div id="main">
+    <div id="main" class="portfolio">
 
         <div class="row">
             <div class="col s12 m6 l4">
