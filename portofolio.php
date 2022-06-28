@@ -1,6 +1,7 @@
-<?php require 'header.php';?>
-    <div id="main" class="portfolio">
 
+    <section id="portofolio">
+        <div id="main" class="portfolio">
+        <h3>Portofolio</h3>
         <div class="row">
             <div class="col s12 m6 l4">
                 <div class="card">
@@ -107,6 +108,4 @@
                 </div>
             </div>
         </div>
-    </div>
-
-<?php require 'footer.php';?>
+</section>
