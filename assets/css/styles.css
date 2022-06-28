@@ -16,11 +16,28 @@ nav {
     overflow: hidden;
     top: 0;
     width: 100%;
+	position: fixed;
+	z-index: 9999;
+}
+
+.content {
+	padding: 100px;
+  }
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+
+.sticky + .content {
+	padding-top: 60px;
 }
 
 a,
 nav a,
-nav ul a {
+nav ul a,
+h3 {
 	color : #FF8F00;
 }
 
@@ -72,6 +89,10 @@ nav ul a {
 
 .section {
 	padding:0px;
+}
+
+#infos {
+	text-shadow: none;
 }
 
 /* Sidenav styles */
