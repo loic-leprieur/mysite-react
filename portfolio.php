@@ -1,7 +1,6 @@
-
-    <section id="portofolio">
-        <div id="main" class="portfolio">
-        <h3>Portofolio</h3>
+<section id="portfolio" class="section">
+    <div id="main" class="portfolio">
+        <h3>Portfolio</h3>
         <div class="row">
             <div class="col s12 m6 l4">
                 <div class="card">
@@ -22,7 +21,7 @@
                         <img data-fancybox src="/assets/img/crazybox.png">
                     </div>
                     <div class="card-action">
-                        <span class="card-title">CrazyBox</span><br/><br/>
+                        <span class="card-title">CrazyBox</span><br /><br />
                         <a href="https://github.com/loic-leprieur/CrazyBox">Dépôt GitHub</a>
                         <p>Site web en PHP et jQuery pour la création de pochettes cadeaux. Réalisé lors du hackaton 'Crazy Charly Day' de l'IUT Charlemagne</p>
                         <video data-fancybox href="/assets/video/demo-crazybox.mp4" controls loop autoplay preload width="250px">
@@ -32,15 +31,15 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image">
                         <img data-fancybox src="/assets/img/tchat-img.jpg">
                     </div>
                     <div class="card-action">
-                    <span class="card-title">Application Xamarin de tchat</span>
-                    <p>Composant UI/UX dans une bibliothèque PCL (avec d'autres modules génériques) pour créer un environnement de tchat (ex: Messenger)</p>
+                        <span class="card-title">Application Xamarin de tchat</span>
+                        <p>Composant UI/UX dans une bibliothèque PCL (avec d'autres modules génériques) pour créer un environnement de tchat (ex: Messenger)</p>
                     </div>
                 </div>
             </div>
@@ -69,7 +68,7 @@
                         <a href="https://github.com/loic-leprieur/jeu-aventure-textuel">Dépôt GitHub</a>
                         <p>Jeu d'aventures textuelles réalisé avec un analyseur synthaxique et un éditeur de niveaux.
                             Le principe repose sur les jeux des années 80's où l'on saisissait du texte pour exécuter
-                            des actions et dont la problématique reposait sur les commandes comprises par l'ordinateur et 
+                            des actions et dont la problématique reposait sur les commandes comprises par l'ordinateur et
                             l'enchaînement des puzzles avec les objets et les éléments du décor. Application réalisée avec
                             Java FX en version 8.
                         </p>
@@ -85,12 +84,12 @@
                         <span class="card-title">Gestionnaire d'évenements à Book'U</span>
                         <p>Application web Angular pour gérer des événements comme des salons. Réalisé avec la méthodologie SCRUM au sein
                             d'une équipe de 3 autres étudiants flammands à Courtrai (Belgique) pour la start-up <strong>Book'u</strong> afin de
-                            tester la technologie. (Une application mobile avec Ionic avait aussi été réalisé en parallèle) 
+                            tester la technologie. (Une application mobile avec Ionic avait aussi été réalisé en parallèle)
                         </p>
                     </div>
                 </div>
             </div>
-              
+
             <div class="col s12 m12 l12">
                 <div class="card">
                     <div class="card-image">
