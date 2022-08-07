@@ -8,7 +8,7 @@
                         <img data-fancybox src="/assets/img/screenshot_appli_ShopNCook.jpg">
                     </div>
                     <div class="card-action">
-                        <p class="card-title">Application Shop&amp;Cook</p>
+                        <h4 class="card-title">Application Shop&amp;Cook</h4>
                         <a href="https://github.com/loic-leprieur/shop-and-cook">Dépôt GitHub</a>
                         <p>Application Android de recherche de recette via une API et d'enregistrements d'ingrédients</p>
                     </div>
@@ -21,7 +21,7 @@
                         <img data-fancybox src="/assets/img/crazybox.png">
                     </div>
                     <div class="card-action">
-                        <span class="card-title">CrazyBox</span><br /><br />
+                        <h4 class="card-title">CrazyBox</h4>
                         <a href="https://github.com/loic-leprieur/CrazyBox">Dépôt GitHub</a>
                         <p>Site web en PHP et jQuery pour la création de pochettes cadeaux. Réalisé lors du hackaton 'Crazy Charly Day' de l'IUT Charlemagne</p>
                         <video data-fancybox href="/assets/video/demo-crazybox.mp4" controls loop autoplay preload width="250px">
@@ -38,7 +38,7 @@
                         <img data-fancybox src="/assets/img/tchat-img.jpg">
                     </div>
                     <div class="card-action">
-                        <span class="card-title">Application Xamarin de tchat</span>
+                        <h4 class="card-title">Application Xamarin de tchat</h4>
                         <p>Composant UI/UX dans une bibliothèque PCL (avec d'autres modules génériques) pour créer un environnement de tchat (ex: Messenger)</p>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         <img data-fancybox src="/assets/img/screenshot _app_TodoList.jpg">
                     </div>
                     <div class="card-action">
-                        <p class="card-title">Application Todo list Android</p>
+                        <h4 class="card-title">Application Todo list Android</h4>
                         <a href="https://github.com/loic-leprieur/TodoList">Dépôt GitHub</a>
                         <p>Application utilisant une base de données locale pour stocker des tâches à accomplir dans une liste modifiable. Implémentation de CRUD et de contrôles UI sur les smartphones Android.</p>
                     </div>
@@ -64,7 +64,7 @@
                         <img data-fancybox src="/assets/img/screenshot_aventure_textuelle.jpg">
                     </div>
                     <div class="card-action">
-                        <p class="card-title">Jeu d'aventures textuelles</p>
+                        <h4 class="card-title">Jeu d'aventures textuelles</h4>
                         <a href="https://github.com/loic-leprieur/jeu-aventure-textuel">Dépôt GitHub</a>
                         <p>Jeu d'aventures textuelles réalisé avec un analyseur synthaxique et un éditeur de niveaux.
                             Le principe repose sur les jeux des années 80's où l'on saisissait du texte pour exécuter
@@ -81,7 +81,7 @@
                         <img data-fancybox src="/assets/img/booku-appli-screenshot.gif">
                     </div>
                     <div class="card-action">
-                        <span class="card-title">Gestionnaire d'évenements à Book'U</span>
+                        <h4 class="card-title">Gestionnaire d'évenements à Book'U</h4>
                         <p>Application web Angular pour gérer des événements comme des salons. Réalisé avec la méthodologie SCRUM au sein
                             d'une équipe de 3 autres étudiants flammands à Courtrai (Belgique) pour la start-up <strong>Book'u</strong> afin de
                             tester la technologie. (Une application mobile avec Ionic avait aussi été réalisé en parallèle)
@@ -96,7 +96,7 @@
                         <img data-fancybox src="/assets/img/basedocumentaireOI.png">
                     </div>
                     <div class="card-action">
-                        <span class="card-title">Intranet ASP.NET</span></br>
+                        <h4 class="card-title">Intranet ASP.NET</h4>
                         <a href="https://github.com/loic-leprieur/OI-BaseDocumentaire">Dépot GitHub</a>
                         <p>Pour remplacer une application sous Microsoft Access difficile à maintenir. Lors d'un stage à O-I
                             Manufacturing (verrerie à Gironcourt-sur-Vraine) j'ai réalisé un site web sur l'intranet de l'entreprise en ASP.NET MVC 5 gérant la base documentaire.
