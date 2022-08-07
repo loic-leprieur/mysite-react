@@ -316,7 +316,17 @@ h3 {
 
 .card .card-title {
 	color: #FF8F00;
-	font-size: 2.5em;
+	font-size: 1.5em;
+}
+.headline, .card-location, .card-employment-period {
+	font-size: 1em;
+}
+
+.infos-links {
+	display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;	
 }
 
 .card-action {
