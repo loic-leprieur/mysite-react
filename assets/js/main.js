@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$('.carousel.carousel-slider').carousel({
 		fullWidth: true,
 		indicators: true
-	});
+	})
 
 
 	var opacity = 0;
@@ -43,7 +43,29 @@ $(document).ready(function(){
 		navbar.classList.add("sticky")
 	} else {
 		navbar.classList.remove("sticky");
-	}
-}
+	}}
 
-});
+	// Scroll to the section with a smooth animation
+	$('.brand-logo').on('click', function(e) {
+		e.preventDefault()
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth'
+		})
+	})
+
+	$('#link-portfolio').on('click', function(e){
+		e.preventDefault()
+		document.getElementById('portfolio').scrollIntoView({block: 'start', behavior: 'smooth'})
+	})
+
+	$('#link-infos').on('click', function(e){
+		e.preventDefault()
+		document.getElementById('infos').scrollIntoView({block: 'start', behavior: 'smooth'})
+	})
+
+	$('#link-contact').on('click', function(e){
+		e.preventDefault()
+		document.getElementById('contact').scrollIntoView({block: 'start', behavior: 'smooth'})
+	})
+})
