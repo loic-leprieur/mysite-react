@@ -12,6 +12,14 @@ body {
 	color: #000;
 }
 
+section {
+	min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Medium';
+}
+
 nav {
     overflow: hidden;
     top: 0;
@@ -44,6 +52,11 @@ h3 {
 @font-face{
 	font-family: "Old English Text MT";
 	src: url('/assets/fonts/OLDENGL.TTF');
+}
+
+@font-face {
+	font-family: "Roboto Medium";
+	src: url('/assets/fonts/Roboto-Medium.ttf');
 }
 
 /* Components styles from Nav */
@@ -130,12 +143,21 @@ h3 {
 }
 
 #profile-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
-    flex-direction: row;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 992px){
+	#banner-profile {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
 }
 
 #banner-profile {
@@ -210,13 +232,14 @@ h3 {
 }
 .container-profile {
 	color: #FF8F00;
+	font-family: 'Roboto Medium';
 }
 
 /* Parallax customization */
 .parallax-container {
 	margin-bottom: 0px;
 	overflow: hidden;
-	min-height: 72vh;
+	min-height: 100vh;
 	display: flex;
     align-content: center;
     justify-content: center;
@@ -230,7 +253,7 @@ h3 {
 
 .parallax-container .parallax img {
 	opacity :inherit;
-	max-width: 600px;
+	min-height: 100vh;
 }
 
 #parallax-img1 {
@@ -246,7 +269,11 @@ h3 {
 /* Carousel styles */
 
 .carousel {
-	height: 500px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .carousel-item {
@@ -298,7 +325,7 @@ h3 {
 	background-repeat: no-repeat;
 	opacity: 0.8;
 	width: 100%;
-	height: 500px;
+	height: 100vh;
 	overflow: hidden;
 }
 
@@ -323,10 +350,12 @@ h3 {
 }
 
 .infos-links {
-	display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-content: center;	
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .card-action {
@@ -400,6 +429,11 @@ h3 {
 .card-content > h3.center-align {
 	margin: 0px;
 }
+
+.card > p {
+	text-align: justify;
+}
+
 
 .card .card-image > img {
 	width: 80%;

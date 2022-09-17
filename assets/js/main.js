@@ -54,6 +54,11 @@ $(document).ready(function(){
 		})
 	})
 
+	$('#link-formation').on('click', function(e){
+		e.preventDefault()
+		document.getElementById('formation').scrollIntoView({block: 'start', behavior: 'smooth'})
+	})
+
 	$('#link-portfolio').on('click', function(e){
 		e.preventDefault()
 		document.getElementById('portfolio').scrollIntoView({block: 'start', behavior: 'smooth'})

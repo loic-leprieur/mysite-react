@@ -1,4 +1,4 @@
-<section class="section grey darken-4">
+<section id="formation" class="section grey darken-4">
     <div class="carousel carousel-slider center">
         <div id="carousel-item-dueti" class="carousel-item">
             <img src="/assets/img/vives-1.png" alt="Globe terrestre" class="carousel-background" />
@@ -49,10 +49,11 @@
                 <div class="description">
                     <p class="white-text">
                         Niveau de la Licence professionnelle Animation des Communautés et Réseaux Socio-numériques.
-                        Formation focalisé sur la communication numérique, l'infographie (Illustrator), le développement de sites vitrines avec PHP et Wordpress, le SEO et la rédaction pour le web.
+                        Formation focalisée sur la communication numérique, l'infographie (Illustrator), le développement de sites vitrines avec PHP et Wordpress, le SEO et la rédaction pour le web.
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+</div>

@@ -4,10 +4,10 @@
 	<div class="parallax-container row valign-wrapper">
 		<div class="container-profile container center-align valign-wrapper">
 			<div class="row" id="banner-profile" style="opacity: 0;">
-				<div class="col s12 m5 l4 center-align">
+				<div class="col s12 m12 l4 center-align">
 					<img id="profile-img" src="\assets\img\profil.jpg" alt="Portrait de Loïc"></img>
 				</div>
-				<div id="profile-body" class="col s12 m7 l8 center-align white-text lignten-3-text">
+				<div id="profile-body" class="col s12 m12 l8 center-align white-text lignten-3-text">
 					<h1 id="title-job">Loïc,
 						<?php $now = date_create();
 
