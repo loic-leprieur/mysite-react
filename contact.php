@@ -60,7 +60,6 @@ if (!empty($expediteur) && !empty($message) && !empty($email)) {
             );
         }
     } else {
-        echo "<script>alert('Erreur de la vérification du formulaire');</script>";
     }
 }
 
