@@ -5,7 +5,7 @@
 		<div class="container-profile container center-align valign-wrapper">
 			<div class="row" id="banner-profile" style="opacity: 0;">
 				<div class="col s12 m12 l4 center-align">
-					<img id="profile-img" src="\assets\img\profil.jpg" alt="Portrait de Loïc"></img>
+					<img id="profile-img" src=".\assets\img\profil.jpg" alt="Portrait de Loïc"></img>
 				</div>
 				<div id="profile-body" class="col s12 m12 l8 center-align white-text lignten-3-text">
 					<h1 id="title-job">Loïc,
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		<div class="parallax">
-			<img id="parallax-img1" src="\assets\img\programing-photo-1.jpg" alt="Photo d'un clavier" style="min-height:1000px;">
+			<img id="parallax-img1" src=".\assets\img\programing-photo-1.jpg" alt="Photo d'un clavier" style="min-height:1000px;">
 		</div>
 	</div>
 </section>
@@ -39,11 +39,11 @@
 
 <div class="parallax-container" style="display: flex; justify-content: center; align-items: center;">
 	<div class="container-profile container center-align valign-wrapper">
-		<h4>Understanding and practicing English is a key factor in any modern profesional context.<br /><br />My Erasmus stay helped me to bring my language level to another dimension.</h4>
+		<h1>Understanding and practicing English is a key factor in any modern profesional context.<br /><br />My Erasmus stay helped me to bring my language level to another dimension.</h1>
 	</div>
 	<div class="parallax">
 
-		<img src="\assets\img\brugges-erasmus.jpg" alt="Atomium de Bruxelles">
+		<img src=".\assets\img\brugges-erasmus.jpg" alt="Atomium de Bruxelles">
 
 	</div>
 </div>

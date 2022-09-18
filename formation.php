@@ -1,7 +1,7 @@
 <section id="formation" class="section grey darken-4">
     <div class="carousel carousel-slider center">
         <div id="carousel-item-dueti" class="carousel-item">
-            <img src="/assets/img/vives-1.png" alt="Globe terrestre" class="carousel-background" />
+            <img src="./assets/img/vives-1.png" alt="Globe terrestre" class="carousel-background" />
             <div class="carousel-content">
                 <div class="headline">
                     <h3 class="center-align">DUETI (Erasmus)</h3>
@@ -20,7 +20,7 @@
             </div>
         </div>
         <div id="carousel-item-dut" class="carousel-item">
-            <img src="/assets/img/iut-1.jpg" alt="Lignes de code" class="carousel-background" />
+            <img src="./assets/img/iut-1.jpg" alt="Lignes de code" class="carousel-background" />
             <div class="carousel-content">
                 <div class="headline">
                     <h3 class="center-align">DUT Informatique</h3>
@@ -40,7 +40,7 @@
             </div>
         </div>
         <div id="carousel-item-acors" class="carousel-item">
-            <img src="assets/img/acors-illustration.jpg" alt="Texte coloré de 'Social Media'" class="carousel-background" />
+            <img src="./assets/img/acors-illustration.jpg" alt="Texte coloré de 'Social Media'" class="carousel-background" />
             <div class="carousel-content">
                 <div class="headline">
                     <h3 class="center-align">Niveau Licence ACORS</h3>

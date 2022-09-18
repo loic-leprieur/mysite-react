@@ -5,7 +5,7 @@
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img data-fancybox src="/assets/img/screenshot_appli_ShopNCook.jpg">
+                        <img data-fancybox src="./assets/img/screenshot_appli_ShopNCook.jpg">
                     </div>
                     <div class="card-action">
                         <h4 class="card-title">Application Shop&amp;Cook</h4>
@@ -18,14 +18,14 @@
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img data-fancybox src="/assets/img/crazybox.png">
+                        <img data-fancybox src="./assets/img/crazybox.png">
                     </div>
                     <div class="card-action">
                         <h4 class="card-title">CrazyBox</h4>
                         <a href="https://github.com/loic-leprieur/CrazyBox">Dépôt GitHub</a>
                         <p>Site web en PHP et jQuery pour la création de pochettes cadeaux. Réalisé lors du hackaton 'Crazy Charly Day' de l'IUT Charlemagne</p>
-                        <video data-fancybox href="/assets/video/demo-crazybox.mp4" controls loop autoplay preload width="250px">
-                            <source src="/assets/video/demo-crazybox.mp4" type="video/mp4">
+                        <video data-fancybox href="./assets/video/demo-crazybox.mp4" controls loop autoplay preload width="250px">
+                            <source src="./assets/video/demo-crazybox.mp4" type="video/mp4">
                             Sorry, your browser doesn't support embedded videos.
                         </video>
                     </div>
@@ -35,7 +35,7 @@
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img data-fancybox src="/assets/img/tchat-img.jpg">
+                        <img data-fancybox src="./assets/img/tchat-img.jpg">
                     </div>
                     <div class="card-action">
                         <h4 class="card-title">Application Xamarin de tchat</h4>
@@ -48,7 +48,7 @@
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img data-fancybox src="/assets/img/screenshot _app_TodoList.jpg">
+                        <img data-fancybox src="./assets/img/screenshot _app_TodoList.jpg">
                     </div>
                     <div class="card-action">
                         <h4 class="card-title">Application Todo list Android</h4>
@@ -61,7 +61,7 @@
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img data-fancybox src="/assets/img/screenshot_aventure_textuelle.jpg">
+                        <img data-fancybox src="./assets/img/screenshot_aventure_textuelle.jpg">
                     </div>
                     <div class="card-action">
                         <h4 class="card-title">Jeu d'aventures textuelles</h4>
@@ -78,7 +78,7 @@
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img data-fancybox src="/assets/img/booku-appli-screenshot.gif">
+                        <img data-fancybox src="./assets/img/booku-appli-screenshot.gif">
                     </div>
                     <div class="card-action">
                         <h4 class="card-title">Gestionnaire d'évenements à Book'U</h4>
@@ -93,7 +93,7 @@
             <div class="col s12 m12 l12">
                 <div class="card">
                     <div class="card-image">
-                        <img data-fancybox src="/assets/img/basedocumentaireOI.png">
+                        <img data-fancybox src="./assets/img/basedocumentaireOI.png">
                     </div>
                     <div class="card-action">
                         <h4 class="card-title">Intranet ASP.NET</h4>

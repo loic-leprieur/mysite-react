@@ -9,13 +9,13 @@
 	<meta name="description" content="Site personnel de Loïc LEPRIEUR, présentation du CV, des projets informatiques réalisés et des expériences passées en ASP.NET, Java, JavaScript et PHP." />
 
 	<!-- Compiled and minified CSS -->
-	<link rel="stylesheet" href="\assets\css\materialize.min.css" />
+	<link rel="stylesheet" href=".\assets\css\materialize.min.css" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
 	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="\assets\fonts\Roboto-Medium.ttf" />
+	<link rel="stylesheet" href=".\assets\fonts\Roboto-Medium.ttf" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.31/dist/fancybox.css" />
-	<link rel="stylesheet" href="\assets\css\styles.css" />
+	<link rel="stylesheet" href=".\assets\css\styles.css" />
 
 	<!-- JS -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -24,7 +24,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 	<!-- Custom JS scripts -->
-	<script src="\assets\js\main.js"></script>
+	<script src=".\assets\js\main.js"></script>
 
 	<!-- Apple webclip -->
 	<link rel="apple-touch-icon" href="\assets\img\touch-icon-iphone.png" />

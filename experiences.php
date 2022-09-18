@@ -1,8 +1,8 @@
-<section class="section white darken-4">
+<section class="section white darken-4" style="min-height: inherit; height:auto;">
     <div class="row">
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="/assets/img/mercedes.jpg" alt="Voiture Mercedes rouge" />
+                <img src="./assets/img/mercedes.jpg" alt="Voiture Mercedes rouge" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">La Fabrik à ID</h3>
@@ -24,7 +24,7 @@
         </div>
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="/assets/img/carte-bancaire.jpg" alt="Carte bancaire" />
+                <img src="./assets/img/carte-bancaire.jpg" alt="Carte bancaire" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">SII Est Strasbourg / Euro-Information Développement</h3>
@@ -45,7 +45,7 @@
         </div>
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="/assets/img/kp1-4.jpg" alt="Chantier avec des grues" />
+                <img src="./assets/img/kp1-4.jpg" alt="Chantier avec des grues" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">2S2I Solutions / KP1</h3>
@@ -69,7 +69,7 @@
 
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="/assets/img/switch-1.jpg" alt="Article avec des statistiques financières" />
+                <img src="./assets/img/switch-1.jpg" alt="Article avec des statistiques financières" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">Switch IT</h3>
@@ -92,7 +92,7 @@
 
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="/assets/img/booku-2.jpg" alt="Evénement de type salon professionnel avec des stands" />
+                <img src="./assets/img/booku-2.jpg" alt="Evénement de type salon professionnel avec des stands" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">Book'u</h3>
@@ -115,7 +115,7 @@
 
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="/assets/img/stage-dut.jpg" alt="Bouteilles en verre" />
+                <img src="./assets/img/stage-dut.jpg" alt="Bouteilles en verre" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">O-I Manufacturing</h3>
