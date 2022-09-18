@@ -1,4 +1,4 @@
-<section id="infos" class="section">
+<section id="infos" class="section" style="min-height:inherit; height: auto;">
 	<h3 style="color:#FF8F00;">Informations</h3>
 	<div class="card white darken-4 black-text" style="height: 100%; text-align: left; display:block; padding: 0% 2% 0% 2%;">
 		<p>
