@@ -39,7 +39,7 @@
 
 <div class="parallax-container" style="display: flex; justify-content: center; align-items: center;">
 	<div class="container-profile container center-align valign-wrapper">
-		<h1>Understanding and practicing English is a key factor in any modern profesional context.<br /><br />My Erasmus stay helped me to bring my language level to another dimension.</h1>
+		<h3>Understanding and practicing English is a key factor in any modern profesional context.<br /><br />My Erasmus stay helped me to bring my language level to another dimension.</h3>
 	</div>
 	<div class="parallax">
 

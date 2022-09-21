@@ -17,6 +17,7 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto Medium';
+	font-size: 2rem;
 }
 
 nav {
@@ -87,7 +88,6 @@ h3 {
 @media screen {
 	
 	.container-profile {
-		width: 70%;
 		max-width: 1280px;
 	}
 }
@@ -199,12 +199,12 @@ h3 {
 
 #profile-img {
     border-radius: 50%;
-    max-width: 100%;
+    max-width: 200px;
     margin-top: auto;
     margin-bottom: auto;
 
 	background: #fff;
-    margin: 20px;
+    margin: 35px;
     -webkit-box-shadow: 2px 2px 5px 0px rgba(255, 255, 255, 1);
     -moz-box-shadow: 2px 2px 5px 0px rgba(255, 255, 255, 1);
     box-shadow: 2px 2px 5px 0px rgba(255, 255, 255, 1);
@@ -221,8 +221,8 @@ h3 {
 	
 	#profile-img {
 	    border-radius: 50%;
-	    max-width: 100%;
-	    margin-top: 10px;
+	    max-width: 200px;
+	    margin-top: 55px;
 	}
 }
 
