@@ -1,8 +1,32 @@
 <section class="section white darken-4" style="min-height: inherit; height:auto;">
     <div class="row">
+        <div class="col l12 m12 s12">
+            <div class="card large white darken-4 z-depth-2">
+                <img class="img-background-exp" src="./assets/img/scanner-irm.jpg" alt="scanner irm" />
+                <div class="card-content">
+                    <div class="headline">
+                        <h3 class="center-align card-title">ALARA Expertise</h3>
+                        <h4 class="center-align card-location">Entzheim</h4>
+                        <h5 class="center-align card-employment-period">Novembre 2022 - Aujourd'hui</h5>
+                    </div>
+
+                    <div class="divider"></div>
+                    <p class="job-description">
+                        La société <strong>ALARA Expertise</strong> du groupe ALARA Group concoit des solutions dans la radio-protection.
+                        Soit la mesure du niveau d'exposition aux rayonnements ionisants et non ionisants des radios et IRMs médicaux.
+                        Le siège est présent à Entzheim mais emploie des collaborateurs sur toute la France pour la maintenance, l'installation et
+                        la prospection pour les produits vendus par l'entreprise.
+
+                    </p>
+                    <p class="job-description">
+                        En tant que développeur Java, je travaille sur les solutions web comme l'ERP, aussi bien en backend avec jPA ou en front-end avec GWT.
+                    </p>
+                </div>
+            </div>
+        </div>
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="./assets/img/mercedes.jpg" alt="Voiture Mercedes rouge" />
+                <img class="img-background-exp" src="./assets/img/mercedes.jpg" alt="Voiture Mercedes rouge" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">La Fabrik à ID</h3>
@@ -24,7 +48,7 @@
         </div>
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="./assets/img/carte-bancaire.jpg" alt="Carte bancaire" />
+                <img class="img-background-exp" src="./assets/img/carte-bancaire.jpg" alt="Carte bancaire" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">SII Est Strasbourg / Euro-Information Développement</h3>
@@ -45,7 +69,7 @@
         </div>
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="./assets/img/kp1-4.jpg" alt="Chantier avec des grues" />
+                <img class="img-background-exp" src="./assets/img/kp1-4.jpg" alt="Chantier avec des grues" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">2S2I Solutions / KP1</h3>
@@ -69,7 +93,7 @@
 
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="./assets/img/switch-1.jpg" alt="Article avec des statistiques financières" />
+                <img class="img-background-exp" src="./assets/img/switch-1.jpg" alt="Article avec des statistiques financières" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">Switch IT</h3>
@@ -92,7 +116,7 @@
 
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="./assets/img/booku-2.jpg" alt="Evénement de type salon professionnel avec des stands" />
+                <img class="img-background-exp" src="./assets/img/booku-2.jpg" alt="Evénement de type salon professionnel avec des stands" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">Book'u</h3>
@@ -115,7 +139,7 @@
 
         <div class="col l4 m6 s12">
             <div class="card large white darken-4 z-depth-2">
-                <img src="./assets/img/stage-dut.jpg" alt="Bouteilles en verre" />
+                <img class="img-background-exp" src="./assets/img/stage-dut.jpg" alt="Bouteilles en verre" />
                 <div class="card-content">
                     <div class="headline">
                         <h3 class="center-align card-title">O-I Manufacturing</h3>
