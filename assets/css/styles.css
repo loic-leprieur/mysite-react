@@ -6,13 +6,14 @@ body {
 	color: #fff;
 }
 
-.portfolio{
+.portfolio > p{
 	text-shadow: 1px 1px 0#fff;
 	color: #000;
 }
 
 section {
 	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -107,6 +108,15 @@ h3 {
 	text-shadow: none;
 	padding: 2% 0% 2% 0%;
 	font-size: x-large;
+}
+
+#infos {
+	padding: 10px;
+}
+
+/* Styles de expériences */
+.img-background-exp {
+	object-fit: cover;
 }
 
 /* Sidenav styles */
