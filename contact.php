@@ -145,28 +145,3 @@ mysqli_close($mysqli);
         }
     }
 </script>
-<section id="contact">
-    <h3>Contact</h3>
-    <div class="parallax-container">
-        <div class="main container">
-
-            <div id="alert-message" class="alert" style="display:none;"></div>
-            <div class="row">
-                <form method="POST" action="" id="contact-form" name="contact-form" onsubmit="validateForm()">
-                    <div class="input-field">
-                        <input type="text" name="expediteur" placeholder="Votre nom" style="color: #FFFF; background-color: rgba(129,140,143,.6);" ; />
-                        <input type="text" name="email" placeholder="Votre email" style="color: #FFFF; background-color: rgba(129,140,143,.6);" ; />
-                        <textarea id="message" name="message" placeholder="Entrez votre message ici" rows="40" cols="50" style="height:200px; color: #FFFF; background-color: rgba(129,140,143,.6);"></textarea>
-                        <br>
-                        <div class="g-recaptcha" data-sitekey="6LeCU9keAAAAAKv6LbiviEfv9t2IsHsOMbhmnzov"></div>
-                        <br>
-                        <input id="btnSubmit" class="waves-effect waves-light btn" type="submit" value="Envoyer" style="color:#FFFF; background-color:#ffab00;">
-                        <a href="./cgu.html">Conditions d'utilisations</a>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="parallax"><img src="assets\img\programing-photo.jpg"></div>
-    </div>
-</section>
-</div>
