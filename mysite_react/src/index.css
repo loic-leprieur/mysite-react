@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.parallax-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#parallax-img1 {
+  min-height:1000px;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+#section-experiences {
+  min-height: inherit;
+  height:auto;
+}
+
+.orange-text {
+  color:#FF8F00;
+}
+
+#infos{
+  min-height:inherit;
+  height: auto;
+}
+
+.card-infos {
+  height: 100%;
+  text-align: left;
+  display:block;
+   padding: 0% 2% 0% 2%;
+}
+
+.input-contact{
+  color: #FFFF;
+  background-color: rgba(129,140,143,.6);
+}
+input[type=text]:not(.browser-default),
+input[type=email]:not(.browser-default)  {
+  border-bottom: 1px solid #9e9e9e;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]){
+  border-bottom: 1px solid #FF8F00;
+  box-shadow: 0 1px 0 0 #FF8F00;
+}
+
+.not-displayed{
+  display: none;
+}
+
+#message {
+  height:200px;
+  color: #FFFF;
+  background-color: rgba(129,140,143,.4);
+  border-radius: 1em;
+  padding: 2%;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+input[type=email]:not(.browser-default):focus:not([readonly])+label  {
+  color: #FF8F00
+}
