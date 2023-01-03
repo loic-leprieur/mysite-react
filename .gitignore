@@ -54,3 +54,4 @@ var/log/*
 # Psr-6 and Psr-16 cache pools
 /var/cache/psr6
 /var/cache/psr16
+mysite_react/src/config/secrets.json
