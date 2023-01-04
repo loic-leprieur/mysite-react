@@ -16,11 +16,6 @@ body {
 	color: #000;
 }
 
-.repos-github-div p {
-	text-shadow: 1px 1px 0 #000;
-	color: #fff;
-}
-
 section {
 	min-height: 100vh;
 	font-family: 'Poppins', sans-serif;
@@ -126,7 +121,7 @@ h3 {
 #infos > div{
 	text-shadow: none;
 	padding: 2%;
-	font-size: medium
+	font-size: x-large;
 }
 
 /* Styles de expériences */
@@ -369,7 +364,7 @@ h3 {
 }
 
 .job-description {
-	text-shadow: 1px 1px 1px #000;
+	text-shadow:3px 3px 3px #000  ;
 }
 
 .card .card-title {
@@ -398,10 +393,6 @@ h3 {
 	flex-wrap: nowrap;
 	flex-direction: column;
 	overflow-y: hidden;
-}
-
-.card .card-action {
-	border-top: 0;
 }
 
 .card-content {
@@ -478,8 +469,4 @@ h3 {
 	margin-top: 2%;
 	overflow: hidden;
 	max-height: 600px;
-}
-
-.li-item-repository {
-	min-height: 200px !important;
 }
