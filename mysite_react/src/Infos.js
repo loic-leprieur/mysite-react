@@ -27,6 +27,13 @@ function Infos(){
                     sur Twitch en tant que streamer et je lis beaucoup de livres policier et fantastiques
                     (The Witcher et les romans d'Agatha Christie <span role="img" aria-label="Coeur">❤️</span>)
                 </p>
+
+                <p className="center-align">
+                    A la recherche d'un nouvel emploi, je suis disponible immédiatement pour
+                    une nouvelle opportunité qui saura m'apporter expériences et relations enrichissantes.
+                    <br />💼 Je recherche un poste de <strong>développeur web backend ou fullstack en ASP.NET ou PHP</strong> 💼.
+                </p>
+                
                 <ul className="center-align infos-links">
                     <li><a className="waves-effect waves-light btn amber darken-3" href="mailto:contact@loic-leprieur.fr?subject=Site web (Infos)">contact@loic-leprieur.fr</a></li>
                     <li><a className="waves-effect waves-light btn amber darken-3" href="https://www.linkedin.com/in/loic-leprieur-1705/">Linkedin</a></li>
