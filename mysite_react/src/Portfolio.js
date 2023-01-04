@@ -6,63 +6,13 @@ import todoList from "./img/screenshot _app_TodoList.jpg";
 import aventureTextuelle from "./img/screenshot_aventure_textuelle.jpg";
 import bookuApp from "./img/booku-appli-screenshot.gif";
 import oiBaseDoc from "./img/basedocumentaireOI.png";
-import githubPicture from "./img/github.jpg";
 import React from "react";
-import secrets from "./config/secrets.json";
-import axios from 'axios';
-import { useState, useEffect } from "react";
 
 function Portfolio(){
-    
-    const [repos, setRepos] = useState([]);
-
-    useEffect(() => {
-        async function fetchData() {
-          const result = await axios(
-            'https://api.github.com/users/loic-leprieur/repos?per_page=9',
-            {
-              headers: {
-                'Authorization': secrets.accessToken
-              }
-            }
-          );
-    
-          setRepos(result.data);
-        }
-    
-        fetchData();
-      }, []);
-
-    const formatDate = date => {
-        const options = { year: 'numeric', month: 'short', day: 'numeric' };
-        return new Date(date).toLocaleDateString('fr-FR', options);
-    };
-
     return (
         <section id="portfolio" className="section">
             <div id="main" className="portfolio">
             <h3>Portfolio</h3>
-
-            {/* Liste des repos GitHub */}
-            <div className="row mx-auto repos-github-div" style={{
-            backgroundImage: `url(${githubPicture})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            overflow: 'hidden'}}>
-                <ul className="list-group">
-                    
-                    {repos.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at)).map(repo => (
-                        <li key={repo.id} className="li-item-repository list-group-item col s12 m4 text-left">
-                            <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
-                            <i className="fas fa-book"></i> {repo.name}
-                            </a>
-                            <p>MàJ: <strong>{formatDate(repo.updated_at)}</strong></p>
-                            <p>{repo.description}</p>
-                        </li>
-                    ))}
-                </ul>
-            </div>
-
             <div className="row">
                 <div className="col s12 m6 l4">
                     <div className="card">
