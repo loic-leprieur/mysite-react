@@ -1,0 +1,472 @@
+/* Basic elements styles */
+body {
+    font-size: 1em;
+    min-width: 320px;
+	text-shadow: 1px 1px 0#000;
+	color: #fff;
+}
+
+.orange-background{
+	background-color: #FF8F00;
+	color: #FFF;
+}
+
+.portfolio p{
+	text-shadow: 1px 1px 0#fff;
+	color: #000;
+}
+
+section {
+	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Medium';
+	font-size: 2rem;
+}
+
+nav {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+	position: fixed;
+	z-index: 9999;
+}
+
+.input-field>label {
+	position: relative;
+	text-align: left;
+}
+
+.input-field {
+	text-align: left;
+}
+
+.content {
+	padding: 100px;
+  }
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
+a,
+nav a,
+nav ul a,
+h3 {
+	color : #FF8F00;
+}
+
+@font-face{
+	font-family: "Old English Text MT";
+	src: url('/fonts/OLDENGL.TTF');
+}
+
+@font-face {
+	font-family: "Roboto Medium";
+	src: url('/fonts/Roboto-Medium.ttf');
+}
+
+/* Components styles from Nav */
+.logo {
+	font-family: "Old English Text MT";
+	margin-left: 10px;
+    color: #FF8F00;
+	text-shadow: -1px 2px 1px #737272
+}
+
+.logo-text {
+    font-weight: 300;
+    margin-left: 0px;
+    color: #FF8F00;
+	text-shadow: -1px 2px 1px #737272;
+}
+
+/* Overriding styles of Materialize's basic elements */
+.container.min-container-space {
+	min-height: 68vh; /* Le contenu du body occupe au moins tout l'écran en comptant le nav et le footer */
+}
+
+.row {
+	margin-bottom: 0px;
+}
+
+
+
+@media screen {
+	
+	.container-profile {
+		max-width: 1280px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.container-profile {
+		width: 100%;
+		
+	}
+}
+
+.section {
+	padding:0px;
+}
+
+#infos > div{
+	text-shadow: none;
+	padding: 2%;
+	font-size: x-large;
+}
+
+/* Styles de expériences */
+.img-background-exp {
+	object-fit: cover;
+}
+
+/* Sidenav styles */
+.sidenav {
+    background-color: #293640;
+}
+
+.sidenav li>a {
+    color: #FF8F00;
+    font-size: 1.5em;
+}
+
+.sidenav li>a>i,
+.sidenav li>a>[class^="mdi-"],
+.sidenav li>a li>a>[class*="mdi-"],
+.sidenav li>a>i.material-icons {
+	color: #FF8F00;
+}
+
+
+/* Section des styles du profil */
+#title-section {
+	color: #FF8F00;
+	margin-top: 1rem;
+}
+
+#profile-text {
+    text-shadow: 2px 2px 4px black;  
+    font-weight: 300;
+    background: rgba(96, 125, 139, 0.4);
+    padding: 10px;
+    border-radius: 10px;  
+}
+
+#profile-body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 992px){
+	#banner-profile {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+}
+
+#banner-profile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-profile > h2 {
+	color: #FF8F00;
+}
+
+#title-job {
+	color: #FF8F00;
+}
+
+#profile-text {
+	font-size: x-large;
+}
+
+@media screen and (max-width: 992px) {
+	.align-center-small {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 1666px) {
+	.row {
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-align: center;
+	    -webkit-align-items: center;
+	    -ms-flex-align: center;
+	    align-items: center;
+		
+	}
+}
+
+#profile-img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+	background: #fff;
+    margin: 35px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 5px 0px rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 700px){
+	
+	#profile > div.row.valign-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	
+	#profile-img {
+	    border-radius: 50%;
+	    max-width: 200px;
+	    margin-top: 55px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.container-profile > h2{
+		font-size: 1.5rem;
+	}
+}
+.container-profile {
+	color: #FF8F00;
+	font-family: 'Roboto Medium';
+}
+
+/* Parallax customization */
+.parallax-container {
+	margin-bottom: 0px;
+	overflow: hidden;
+	min-height: 100vh;
+	display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.parallax {
+	z-index:1;
+}
+
+.parallax-container .parallax img {
+	opacity :inherit;
+	min-height: 100vh;
+}
+
+#parallax-img1 {
+	transform: translate3d(-50%, 130.147px, 0px);
+}
+
+.headline {
+	color: #FFF;
+	text-shadow:0.5px 0.5px 1px #000;
+}
+
+
+/* Carousel styles */
+
+.carousel {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	flex-direction: row;
+}
+
+.carousel-item {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: x-large;
+}
+
+.carousel-content {
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1.5% 20% 0% 20%;
+}
+
+.carousel.carousel-slider .carousel-item p {
+    font-size: large;
+}
+
+.description > ul > li {
+    font-size: large;
+}
+
+.description > p{
+	text-shadow: 0.5px 0.5px 1px #000;
+}
+
+.description > ul > li {
+	list-style-type: disc;
+	text-align: start;
+}
+
+.carousel-background {
+	-webkit-filter: blur(4px);
+   	filter: blur(4px);
+	object-fit: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+/* Card styles */
+.card {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	min-height: 400px;
+}
+
+#card-infos {
+	display: inline-block;
+}
+
+.job-description {
+	text-shadow:3px 3px 3px #000  ;
+}
+
+.card .card-title {
+	color: #FF8F00;
+	font-size: 1.5em;
+}
+.headline, .card-location, .card-employment-period {
+	font-size: 1em;
+}
+
+.infos-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+	gap: 5px;
+}
+
+.card-action {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	height: 100%;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	overflow-y: hidden;
+}
+
+.card-content {
+	position: absolute;
+  	top: 0;
+  	right: 0;
+  	padding :8%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 400px){
+	.card.small .card-content, .card.medium .card-content, .card.large .card-content {
+		overflow: scroll;
+	}
+}
+
+.card .card-content p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.card-background {
+	position: relative;
+	height: 100%;
+	-webkit-filter: blur(4px);
+   	filter: blur(4px);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+	
+}
+
+.card > img {
+	position: relative;
+	height: 100%;
+	-webkit-filter: blur(4px);
+   	filter: blur(4px);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.75;
+	overflow: hidden;
+	width: 100%;
+}
+
+.card.small .card-action, .card.medium .card-action, .card.large .card-action {
+	position: inherit;
+}
+
+.card.small .card-image+.card-content, .card.medium .card-image+.card-content, .card.large .card-image+.card-content {
+	overflow: inherit;
+	max-height: inherit;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+	color: #FF8F00;
+}
+
+.card-content > h3.center-align {
+	margin: 0px;
+}
+
+.card > p {
+	text-align: justify;
+}
+
+
+.card .card-image > img {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	overflow: hidden;
+	max-height: 600px;
+}

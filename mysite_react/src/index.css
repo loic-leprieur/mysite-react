@@ -5,6 +5,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+strong{
+  font-weight: 600;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -75,4 +79,28 @@ input[type=email]:not(.browser-default):focus:not([readonly]){
 input[type=text]:not(.browser-default):focus:not([readonly])+label,
 input[type=email]:not(.browser-default):focus:not([readonly])+label  {
   color: #FF8F00
+}
+
+.callout-info {
+  background-color: #032830;
+  color: #6edff6;
+  border-radius: 1em;
+  padding: 2%;
+  border: 1px solid #055160;
+}
+
+.callout-warning {
+  background-color: #332701;
+  border: 1px solid #664d03;
+  color: #ffda6a;
+  border-radius: 1em;
+  padding: 2%;
+}
+
+.callout-error {
+  background-color: #330101;
+  border: 1px solid #660303;
+  color: #ff6a6a;
+  border-radius: 1em;
+  padding: 2%;
 }
