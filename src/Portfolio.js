@@ -1,11 +1,11 @@
-import shopNcook from "./img/screenshot_appli_ShopNCook.jpg";
-import demoCrazyBox from "./video/demo-crazybox.mp4";
-import crazyBox from "./img/crazybox.png" 
-import xamarinApp from "./img/tchat-img.jpg";
-import todoList from "./img/screenshot _app_TodoList.jpg";
-import aventureTextuelle from "./img/screenshot_aventure_textuelle.jpg";
-import bookuApp from "./img/booku-appli-screenshot.gif";
-import oiBaseDoc from "./img/basedocumentaireOI.png";
+import shopNcook from "./assets/img/screenshot_appli_ShopNCook.jpg";
+import demoCrazyBox from "./assets/video/demo-crazybox.mp4";
+import crazyBox from "./assets/img/crazybox.png" 
+import xamarinApp from "./assets/img/tchat-img.jpg";
+import todoList from "./assets/img/screenshot _app_TodoList.jpg";
+import aventureTextuelle from "./assets/img/screenshot_aventure_textuelle.jpg";
+import bookuApp from "./assets/img/booku-appli-screenshot.gif";
+import oiBaseDoc from "./assets/img/basedocumentaireOI.png";
 import React from "react";
 
 function Portfolio(){

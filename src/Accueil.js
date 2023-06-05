@@ -1,5 +1,5 @@
-import profil from "./img/profil.jpg";
-import programming from "./img/programing-photo-1.jpg";
+import profil from "./assets/img/profil.jpg";
+import programming from "./assets/img/programing-photo-1.jpg";
 import React from "react";
 
 function Accueil() {

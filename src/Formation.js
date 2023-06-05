@@ -1,6 +1,6 @@
-import vives from "./img/vives-1.png";
-import iut from "./img/iut-1.jpg"; 
-import acors from "./img/acors-illustration.jpg"
+import vives from "./assets/img/vives-1.png";
+import iut from "./assets/img/iut-1.jpg"; 
+import acors from "./assets/img/acors-illustration.jpg"
 import React from "react";
 
 function Formation() {

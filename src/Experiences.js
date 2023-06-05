@@ -1,10 +1,10 @@
-import alaraIRM from "./img/scanner-irm.jpg";
-import mercedes from "./img/mercedes.jpg";
-import carteBancaire from "./img/carte-bancaire.jpg";
-import kp1 from "./img/kp1-4.jpg";
-import switchIT from "./img/switch-1.jpg";
-import booku from "./img/booku-2.jpg";
-import stageDUT from "./img/stage-dut.jpg";
+import alaraIRM from "./assets/img/scanner-irm.jpg";
+import mercedes from "./assets/img/mercedes.jpg";
+import carteBancaire from "./assets/img/carte-bancaire.jpg";
+import kp1 from "./assets/img/kp1-4.jpg";
+import switchIT from "./assets/img/switch-1.jpg";
+import booku from "./assets/img/booku-2.jpg";
+import stageDUT from "./assets/img/stage-dut.jpg";
 import React from "react";
 
 function Experiences() {

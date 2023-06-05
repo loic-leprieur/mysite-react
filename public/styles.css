@@ -66,12 +66,12 @@ h3 {
 
 @font-face{
 	font-family: "Old English Text MT";
-	src: url('/fonts/OLDENGL.TTF');
+	src: url('/src/assets/fonts/OLDENGL.TTF');
 }
 
 @font-face {
 	font-family: "Roboto Medium";
-	src: url('/fonts/Roboto-Medium.ttf');
+	src: url('/src/assets/fonts/Roboto-Medium.ttf');
 }
 
 /* Components styles from Nav */
