@@ -7,59 +7,7 @@ node_modules/
 .cache/
 dist/
 .env
-coverage/
-composer.lock
-composer.phar
 /vendor/
 
-# Symfony 4 specific
-.env
-.env.test
-.env.local
-.env.local.php
-
-# Cache and logs
-var/cache/*
-var/log/*
-
-# Metadata
-.phpstorm.meta.php
-.phpunit.result.cache
-
-# PHPStorm
-.idea
-
-# Custom env vars
-.env.local.php.backup
-
-# Composer
-/vendor
-
-# Webpack
-/public/build
-
-# Tests output
-/var/log/test
-
-# PHPUnit
-/var/log/phpunit
-/var/cache/test
-
-# Behat
-/var/behat
-
-# PHPStan
-/var/phpstan
-
-# Psr-6 and Psr-16 cache pools
-/var/cache/psr6
-/var/cache/psr16
+# Token for API
 mysite_react/src/config/secrets.json
-
-
-#Other
-.metadata/
-org.eclipse.wst.common.component
-org.eclipse.wst.common.project.facet.core.xml
-org.eclipse.wst.validation.prefs
-bin/
