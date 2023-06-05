@@ -1,3 +1,8 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+User-agent:*
+Disallow: /dbconfig
+Disallow: /vendor
+Disallow: /src
+Disallow: errors
+Disallow: cgu.html
+Allow: /
+Sitemap: https://loic-leprieur.fr/sitemap.xml
