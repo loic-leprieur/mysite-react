@@ -1,10 +1,10 @@
-import alaraIRM from './assets/img/scanner-irm.jpg'
 import mercedes from './assets/img/mercedes.jpg'
 import carteBancaire from './assets/img/carte-bancaire.jpg'
 import kp1 from './assets/img/kp1-4.jpg'
 import switchIT from './assets/img/switch-1.jpg'
 import booku from './assets/img/booku-2.jpg'
 import stageDUT from './assets/img/stage-dut.jpg'
+import xray from './assets/img/x-ray.jpg'
 import React from 'react'
 
 function Experiences() {
@@ -13,7 +13,7 @@ function Experiences() {
       <div className="row">
         <div className="col l12 m12 s12">
           <div className="card large white darken-4 z-depth-2">
-            <img className="img-background-exp" src={alaraIRM} alt="scanner irm" />
+            <img className="img-background-exp" src={xray} alt="scanner irm" />
             <div className="card-content">
               <div className="headline">
                 <h3 className="center-align card-title">ALARA Expertise</h3>
@@ -23,8 +23,8 @@ function Experiences() {
 
               <div className="divider"></div>
               <p className="job-description">
-                La société <strong>ALARA Expertise</strong> du groupe ALARA Group concoit des
-                solutions dans la radio-protection. Soit la mesure du niveau d'exposition aux
+                La société <strong>ALARA Expertise</strong> du groupe ALARA Group conçoit des
+                solutions dans la radio-protection. Comme la mesure du niveau d'exposition aux
                 rayonnements ionisants et non ionisants des radios et IRMs médicaux. Le siège est
                 présent à Entzheim mais emploie des collaborateurs sur toute la France pour la
                 maintenance, l'installation et la prospection pour les produits vendus par
@@ -32,7 +32,7 @@ function Experiences() {
               </p>
               <p className="job-description">
                 En tant que développeur Java, je travaille sur les solutions web comme l'ERP, aussi
-                bien en backend avec jPA ou en front-end avec GWT.
+                bien en backend avec JPA/Hibernate qu'en front-end avec GWT.
               </p>
             </div>
           </div>
