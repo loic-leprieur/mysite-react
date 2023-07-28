@@ -12,25 +12,25 @@ function Accueil() {
 
   return (
     <section id="accueil" className="section">
-      <div className="parallax-container row valign-wrapper">
-        <div className="container-profile container center-align valign-wrapper">
-          <div className="row invisible" id="banner-profile">
-            <div className="col s12 m12 l4 center-align">
+      <div className="parallax-container">
+        <div className="container-profile">
+          <div className="invisible" id="banner-profile">
+            <div className="profile-img-container">
               <img id="profile-img" src={profil} alt="Portrait de Loïc"></img>
             </div>
-            <div
-              id="profile-body"
-              className="col s12 m12 l8 center-align white-text lignten-3-text">
+            <div id="profile-body" className="white-text lignten-3-text">
               <h1 id="title-job">Loïc {nbYearsSinceBirthday()} ans, Analyste&nbsp;développeur</h1>
-              <h2 className="s12 text-justify" id="profile-text">
+              <h2 className="text-justify" id="profile-text">
                 Passionné par les nouvelles technologies et leurs apports au quotidien de chacun(e).
               </h2>
-              <div id="mail-button" className="s12 waves-effect btn-large hoverable amber darken-4">
+              <div
+                id="mail-button"
+                className="waves-effect btn-large hoverable pulse amber darken-4">
                 <a
                   href="mailto:contact@loic-leprieur.fr?subject=Site web (Accueil)"
-                  className="white-text valign-wrapper">
-                  <i className="medium material-icons">mail_outline</i>&nbsp;
-                  <span className="center-align">Email</span>
+                  className="white-text link-mailto">
+                  <i className="mailto-icon large material-icons">mail_outline</i>&nbsp;
+                  <span id="email-text">contact@loic-leprieur.fr</span>
                 </a>
               </div>
             </div>
