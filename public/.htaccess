@@ -1,3 +1,14 @@
-RewriteEngine On 
-RewriteCond %{HTTPS} off 
+RewriteEngine On
+
+# Redirect to HTTPS if not already on HTTPS
+RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect requests for the subdomain 'blog.loic-leprieur.fr' to the 'blog' folder
+RewriteCond %{HTTP_HOST} ^blog\.loic-leprieur\.fr$ [NC]
+RewriteCond %{REQUEST_URI} !^/blog/
+RewriteRule ^(.*)$ /blog/$1 [L]
+
+# Redirect to 'mysite-react/public/' if the requested URI doesn't start with 'mysite-react/public/'
+RewriteCond %{REQUEST_URI} !^/mysite-react/public/
+RewriteRule ^(.*)$ /mysite-react/public/$1 [L,R=301]
