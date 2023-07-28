@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav id="navbar">
       <div className="nav-wrapper white darken-4">
-        <span className="align-center-small">
+        <span className="nav-title-align">
           <a href="/" className="brand-logo">
             {' '}
             <span className="logo">L</span>
