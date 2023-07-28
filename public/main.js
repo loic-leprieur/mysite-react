@@ -1,76 +1,83 @@
+$(function() {
+  // Initialize side navigation
+  $('.sidenav').sidenav()
 
-jQuery(function(){
-	$('.sidenav').sidenav();
-	$('.parallax').parallax();
-	$('.carousel.carousel-slider').carousel({
-		fullWidth: true,
-		indicators: true
-	});
+  // Initialize parallax effect
+  $('.parallax').parallax()
 
-	var opacity = 0;
-	var intervalID = 0;
-	window.onload = fadeIn;
+  // Initialize carousel slider
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  })
 
-	function fadeIn() {
-		setInterval(show, 200);
-	}
+  // Set initial opacity and interval ID
+  var opacity = 0
+  var intervalID = 0
 
-	function show() {
-		var banner = document.getElementById("banner-profile");
-		opacity = Number(window.getComputedStyle(banner)
-							.getPropertyValue("opacity"));
-		if (opacity < 1) {
-			opacity = opacity + 0.1;
-			banner.style.opacity = opacity
-		} else {
-			clearInterval(intervalID);
-		}
+  // Increase opacity gradually to fade in the banner
+  function show() {
+    var banner = $('#banner-profile')
+    opacity = Number(banner.css('opacity'))
+    if (opacity < 1) {
+      opacity += 0.1
+      banner.css('opacity', opacity)
+    } else {
+      clearInterval(intervalID)
+    }
+  }
 
-		$('#mail-button').effect("bounce", { direction:'down', times:8 }, 300);
-	}
+  // Fade in the banner element
+  function fadeIn() {
+    intervalID = setInterval(show, 200)
+  }
 
-	window.onscroll = function() {addStickyToNav()};
+  // Call fadeIn() when the DOM is fully loaded
+  fadeIn()
 
-	// Get the navbar
-	var navbar = document.getElementById("navbar");
+  // Add sticky class to the navbar on scroll
+  $(window).scrollTop(function() {
+    // addStickyToNav()
+  })
 
-	// Get the offset position of the navbar
-	var sticky = navbar.offsetTop;
+  // Add the stickyOffsetTop class to the navbar when reaching its scroll position
+  function addStickyToNav() {
+    // Get the navbar element
+    const navbar = $('#navbar')
 
-	// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-	function addStickyToNav() {
-	if (window.pageYOffset >= sticky) {
-		navbar.classList.add("sticky")
-	} else {
-		navbar.classList.remove("sticky");
-	}}
+    // Get the offset position of the navbar
+    const stickyOffsetTop = navbar.offset().top
 
-	// Scroll to the section with a smooth animation
-	$('.brand-logo').on('click', function(e) {
-		e.preventDefault()
-		window.scrollTo({
-			top: 0,
-			behavior: 'smooth'
-		})
-	})
+    if ($(window).scrollTop() >= stickyOffsetTop) {
+      navbar.addClass('sticky')
+    } else {
+      navbar.removeClass('sticky')
+    }
+  }
 
-	$('#link-formation').on('click', function(e){
-		e.preventDefault()
-		document.getElementById('formation').scrollIntoView({block: 'start', behavior: 'smooth'})
-	})
+  // Scroll to the section with a smooth animation on link clicks
+  $('.brand-logo').on('click', function(e) {
+    e.preventDefault()
+    $('html, body').animate({ scrollTop: 0 }, 'smooth')
+  })
 
-	$('#link-portfolio').on('click', function(e){
-		e.preventDefault()
-		document.getElementById('portfolio').scrollIntoView({block: 'start', behavior: 'smooth'})
-	})
+  $('#link-formation').on('click', function(e) {
+    e.preventDefault()
+    $('#formation')[0].scrollIntoView({ behavior: 'smooth' })
+  })
 
-	$('#link-infos').on('click', function(e){
-		e.preventDefault()
-		document.getElementById('infos').scrollIntoView({block: 'start', behavior: 'smooth'})
-	})
+  $('#link-portfolio').on('click', function(e) {
+    e.preventDefault()
+    $('#portfolio')[0].scrollIntoView({ behavior: 'smooth' })
+  })
 
-	$('#link-contact').on('click', function(e){
-		e.preventDefault()
-		document.getElementById('contact').scrollIntoView({block: 'start', behavior: 'smooth'})
-	})
+  $('#link-infos').on('click', function(e) {
+    e.preventDefault()
+    $('#infos')[0].scrollIntoView({ behavior: 'smooth' })
+  })
+
+  $('#link-contact').on('click', function(e) {
+    e.preventDefault()
+    $('#contact')[0].scrollIntoView({ behavior: 'smooth' })
+  })
 })
