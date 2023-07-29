@@ -291,6 +291,10 @@ a:hover, #btnSubmit {
 	justify-content: center;
 }
 
+.btn {
+	font-size: clamp(0.5rem, 1vw, 2rem);
+}
+
 .btn-large i.mailto-icon.large.material-icons {
     font-size: 60px !important;
 }
@@ -442,10 +446,6 @@ a:hover, #btnSubmit {
 	width: 30px;
 }
 
-.carousel-content > .description {
-	margin-bottom: 50%;
-}
-
 .carousel.carousel-slider .carousel-item p {
     font-size: large;
 }
@@ -489,20 +489,27 @@ a:hover, #btnSubmit {
 	justify-items: center;
 	align-items: stretch;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	gap: 2%;
+	justify-content: center;
+	gap: 10px;
 }
 
 .card-portfolio {
 	display: flex;
 	justify-items: center;
 	flex-direction: column;
-	width: 49%;
+	/*width: 49%;*/
 	align-items: center;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	border-radius: 1%;
+	padding: 2%;
 }
 
 .card-image > img {
 	width: 100%;
+	max-height: 700px;
+	object-fit: contain;
 }
 
 #card-infos {
@@ -526,7 +533,7 @@ a:hover, #btnSubmit {
     align-content: center;
     flex-wrap: nowrap;
     align-items: center;
-	gap: 40px;
+	gap: 5px;
 }
 
 .card-action {
@@ -628,6 +635,15 @@ a:hover, #btnSubmit {
 	background-color: #FF8F00;
 }
 
+#skills-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-height: 275px;
+	margin: 1% 0% 1% 0%;
+	gap: 15px;
+}
+
 .list-title-skill {
 	color: #000;
 	font-family: 'Poppins Bold';
@@ -642,10 +658,9 @@ a:hover, #btnSubmit {
 .list-parent-skills {
 	text-align: start;
 	display: flex;
-	justify-content: center;
 	align-items: flex-start;
-	align-self: center;
 	flex-direction: column;
+	flex-grow: 1;
 }
 
 .list-parent-skills > ul {

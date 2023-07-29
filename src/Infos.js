@@ -19,42 +19,47 @@ function Infos() {
           secteurs très différents : le BTP, la banque et l'assurance vie, l'automobile ou encore la
           médecine nucléaire. Les technologies auxquelles j'ai pu toucher sont :
         </p>
-        <div className="list-parent-skills">
-          <span className="list-title-skill">Langages de programmation / Frameworks :</span>
-          <ul>
-            <li className="list-li-skill">Java : Hibernate, JPA, GWT</li>
-            <li className="list-li-skill">C# : ASP.NET MVC / Core, Entity Framework, Devbooster</li>
-            <li className="list-li-skill">C</li>
-            <li className="list-li-skill">Python</li>
-            <li className="list-li-skill">JavaScript : React, jQuery, Angular</li>
-            <li className="list-li-skill">HTML5</li>
-            <li className="list-li-skill">CSS3</li>
-          </ul>
+        <div id="skills-container">
+          <div className="list-parent-skills">
+            <span className="list-title-skill">Langages de programmation / Frameworks :</span>
+            <ul>
+              <li className="list-li-skill">Java : Hibernate, JPA, GWT</li>
+              <li className="list-li-skill">
+                C# : ASP.NET MVC / Core, Entity Framework, Devbooster
+              </li>
+              <li className="list-li-skill">C</li>
+              <li className="list-li-skill">Python</li>
+              <li className="list-li-skill">JavaScript : React, jQuery, Angular</li>
+              <li className="list-li-skill">HTML5</li>
+              <li className="list-li-skill">CSS3</li>
+            </ul>
+          </div>
+
+          <div className="list-parent-skills">
+            <span className="list-title-skill">Bases de données :</span>
+            <ul>
+              <li className="list-li-skill">MySQL</li>
+              <li className="list-li-skill">Oracle</li>
+              <li className="list-li-skill">SQL Server</li>
+            </ul>
+          </div>
+          <div className="list-parent-skills">
+            <span className="list-title-skill">Systèmes et outils :</span>
+            <ul>
+              <li className="list-li-skill">zsh</li>
+              <li className="list-li-skill">Bash</li>
+              <li className="list-li-skill">Chrome Web Tools</li>
+              <li className="list-li-skill">Eclipse</li>
+              <li className="list-li-skill">Visual Studio / Code</li>
+              <li className="list-li-skill">Git</li>
+              <li className="list-li-skill">Linux</li>
+              <li className="list-li-skill">MacOs</li>
+              <li className="list-li-skill">IBM z/OS</li>
+              <li className="list-li-skill">Chat GPT</li>
+            </ul>
+          </div>
         </div>
 
-        <div className="list-parent-skills">
-          <span className="list-title-skill">Bases de données :</span>
-          <ul>
-            <li className="list-li-skill">MySQL</li>
-            <li className="list-li-skill">Oracle</li>
-            <li className="list-li-skill">SQL Server</li>
-          </ul>
-        </div>
-        <div className="list-parent-skills">
-          <span className="list-title-skill">Systèmes et outils :</span>
-          <ul>
-            <li className="list-li-skill">zsh</li>
-            <li className="list-li-skill">Bash</li>
-            <li className="list-li-skill">Chrome Web Tools</li>
-            <li className="list-li-skill">Eclipse</li>
-            <li className="list-li-skill">Visual Studio / Code</li>
-            <li className="list-li-skill">Git</li>
-            <li className="list-li-skill">Linux</li>
-            <li className="list-li-skill">MacOs</li>
-            <li className="list-li-skill">IBM z/OS</li>
-            <li className="list-li-skill">Chat GPT</li>
-          </ul>
-        </div>
         <p>
           J'apprends vite et je continue de me former à de nouvelles technologies ou techniques. En
           ce moment je me met en place un environement de développement avec des conteneurs, je
