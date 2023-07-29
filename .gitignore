@@ -8,6 +8,7 @@ node_modules/
 dist/
 .env
 /vendor/
+/build
 
 # Token for API
 mysite_react/src/config/secrets.json
