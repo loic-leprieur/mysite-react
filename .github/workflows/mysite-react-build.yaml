@@ -36,7 +36,7 @@ jobs:
         env:
           CI: true
           SITE_URL: ${{ inputs.site-url }}
-          PUBLIC_URL: https://loic-leprieur.fr/mysite-react/public
+          REACT_APP_PUBLIC_URL: https://loic-leprieur.fr/mysite-react/public
         run: |
           npm ci
           npm run build
