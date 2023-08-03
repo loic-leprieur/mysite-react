@@ -1,8 +1,7 @@
 RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /index.html?path=$1 [NC,L,QSA]
+RewriteCond %{HTTP_HOST} ^loic-leprieur\.fr$ [NC]
+RewriteRule ^mysite-react/public/(.*)$ /$1 [L,R=301]
 
 # Redirect requests for the subdomain 'blog.loic-leprieur.fr' to the 'blog' folder
 RewriteCond %{HTTP_HOST} ^blog\.loic-leprieur\.fr$ [NC]
