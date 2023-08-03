@@ -20,7 +20,7 @@
         "files": [
           "src/**/*.js"
         ],
-        "extends": ["react-app"]
+        "extends": ["react-app", "jquery"]
       }
     ]
   }
