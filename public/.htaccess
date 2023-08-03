@@ -8,7 +8,3 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^blog\.loic-leprieur\.fr$ [NC]
 RewriteCond %{REQUEST_URI} !^/blog/
 RewriteRule ^(.*)$ /blog/$1 [L]
-
-# Redirect to 'mysite-react/public/' if the requested URI doesn't start with 'mysite-react/public/'
-RewriteCond %{REQUEST_URI} !^/mysite-react/public/
-RewriteRule ^(.*)$ /mysite-react/public/$1 [L,R=301]
