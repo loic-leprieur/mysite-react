@@ -1,4 +1,6 @@
-$(function() {
+'use strict'
+
+$(function () {
   // Initialize side navigation
   $('.sidenav').sidenav()
 
@@ -36,7 +38,7 @@ $(function() {
   fadeIn()
 
   // Add sticky class to the navbar on scroll
-  $(window).scrollTop(function() {
+  $(window).scrollTop(function () {
     // addStickyToNav()
   })
 
@@ -55,28 +57,30 @@ $(function() {
     }
   }
 
+  addStickyToNav()
+
   // Scroll to the section with a smooth animation on link clicks
-  $('.brand-logo').on('click', function(e) {
+  $('.brand-logo').on('click', function (e) {
     e.preventDefault()
     $('html, body').animate({ scrollTop: 0 }, 'smooth')
   })
 
-  $('#link-formation').on('click', function(e) {
+  $('#link-formation').on('click', function (e) {
     e.preventDefault()
     $('#formation')[0].scrollIntoView({ behavior: 'smooth' })
   })
 
-  $('#link-portfolio').on('click', function(e) {
+  $('#link-portfolio').on('click', function (e) {
     e.preventDefault()
     $('#portfolio')[0].scrollIntoView({ behavior: 'smooth' })
   })
 
-  $('#link-infos').on('click', function(e) {
+  $('#link-infos').on('click', function (e) {
     e.preventDefault()
     $('#infos')[0].scrollIntoView({ behavior: 'smooth' })
   })
 
-  $('#link-contact').on('click', function(e) {
+  $('#link-contact').on('click', function (e) {
     e.preventDefault()
     $('#contact')[0].scrollIntoView({ behavior: 'smooth' })
   })
