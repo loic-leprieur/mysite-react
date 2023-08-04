@@ -5,7 +5,8 @@
       "commonjs": true,
       "node": true,
       "es6": true,
-      "jest": false
+      "jest": false,
+      "jquery": true
     },
     "parserOptions": {
       "ecmaVersion": 2018
@@ -20,7 +21,7 @@
         "files": [
           "src/**/*.js"
         ],
-        "extends": ["react-app", "jquery"]
+        "extends": ["react-app", "eslint:recommended"]
       }
     ]
   }
