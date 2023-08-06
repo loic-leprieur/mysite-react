@@ -1,6 +1,6 @@
 'use strict'
 
-$(function () {
+jQuery(function () {
   // Initialize side navigation
   $('.sidenav').sidenav()
 
@@ -59,29 +59,69 @@ $(function () {
 
   addStickyToNav()
 
-  // Scroll to the section with a smooth animation on link clicks
-  $('.brand-logo').on('click', function (e) {
-    e.preventDefault()
+  // Check if there's a hash in the URL (i.e., URL parameters are present)
+  if (window.location.hash) {
+    var target = $(window.location.hash)
+    if (target.length) {
+      // Smooth scroll to the target section
+      $('html, body').animate({ scrollTop: target.offset().top }, 'smooth')
+    }
+  }
+
+  // Add click event handlers for navigation links
+  $('.brand-logo').on('click', function () {
     $('html, body').animate({ scrollTop: 0 }, 'smooth')
   })
 
   $('#link-formation').on('click', function (e) {
     e.preventDefault()
-    $('#formation')[0].scrollIntoView({ behavior: 'smooth' })
+    const headerHeight = 80 // Adjust this value according to your header's height
+    var target = $('#formation')[0]
+    var targetPosition = target.getBoundingClientRect().top
+    var offset = targetPosition - headerHeight
+
+    window.scrollBy({
+      top: offset,
+      behavior: 'smooth'
+    })
   })
 
   $('#link-portfolio').on('click', function (e) {
     e.preventDefault()
-    $('#portfolio')[0].scrollIntoView({ behavior: 'smooth' })
+    const headerHeight = 200 // Adjust this value according to your header's height
+    var target = $('#portfolio')[0]
+    var targetPosition = target.getBoundingClientRect().top
+    var offset = targetPosition - headerHeight
+
+    window.scrollBy({
+      top: offset,
+      behavior: 'smooth'
+    })
   })
 
   $('#link-infos').on('click', function (e) {
     e.preventDefault()
-    $('#infos')[0].scrollIntoView({ behavior: 'smooth' })
+    const headerHeight = 80 // Adjust this value according to your header's height
+    var target = $('#infos')[0]
+    var targetPosition = target.getBoundingClientRect().top
+    var offset = targetPosition - headerHeight
+
+    window.scrollBy({
+      top: offset,
+      behavior: 'smooth'
+    })
   })
 
   $('#link-contact').on('click', function (e) {
     e.preventDefault()
-    $('#contact')[0].scrollIntoView({ behavior: 'smooth' })
+    const headerHeight = 80 // Adjust this value according to your header's height
+    var target = $('#contact')[0]
+    var targetPosition = target.getBoundingClientRect().top
+    var offset = targetPosition - headerHeight
+
+    window.scrollBy({
+      top: offset,
+      behavior: 'smooth'
+    })
   })
 })
