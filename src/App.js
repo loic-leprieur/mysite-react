@@ -1,26 +1,25 @@
+import React, { Suspense } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Accueil from './Accueil'
 import Footer from './Footer'
-import './App.css'
-import LanguageSkill from './LanguageSkill'
-import Experiences from './Experiences'
-import Infos from './Infos'
-import Contact from './Contact'
-import Formation from './Formation'
-import Portfolio from './Portfolio'
-import React from 'react'
 import Navbar from './Navbar'
+import './App.css'
+import NotFound from './errorPages/NotFound'
+import ServerError from './errorPages/ServerError'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Accueil />
-      <Formation />
-      <LanguageSkill />
-      <Experiences />
-      <Portfolio />
-      <Infos />
-      <Contact />
+      <Router>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route exact path="/" Component={Accueil} />
+            <Route path="*" Component={NotFound} />
+            <Route path="/500" Component={ServerError} />
+          </Routes>
+        </Suspense>
+      </Router>
       <Footer />
     </div>
   )
