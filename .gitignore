@@ -6,7 +6,7 @@ dbconfig/config.php
 node_modules/
 .cache/
 dist/
-.env
+.env.*
 /vendor/
 /build
 
