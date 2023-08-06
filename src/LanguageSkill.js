@@ -21,7 +21,7 @@ function LanguageSkill() {
         <p>It blew my mind and changed forever my vision on the world.</p>
       </div>
       <div className="parallax">
-        <img src={atomium} alt="Atomium de Bruxelles" />
+        <img src={atomium} alt="Atomium de Bruxelles" loading="lazy" />
       </div>
     </div>
   )

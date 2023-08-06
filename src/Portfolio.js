@@ -16,7 +16,12 @@ function Portfolio() {
         <div className="card-portfolio">
           <h4 className="card-title">Application Shop&amp;Cook</h4>
           <div className="card-image">
-            <img data-fancybox src={shopNcook} alt="Appli de recherche de recettes" />
+            <img
+              data-fancybox
+              src={shopNcook}
+              alt="Appli de recherche de recettes"
+              loading="lazy"
+            />
           </div>
           <div className="card-action">
             <a href="https://github.com/loic-leprieur/shop-and-cook">Dépôt GitHub</a>
@@ -30,7 +35,7 @@ function Portfolio() {
         <div className="card-portfolio">
           <h4 className="card-title">CrazyBox</h4>
           <div className="card-image">
-            <img data-fancybox src={crazyBox} alt="Page d'accueil de CrazyBox" />
+            <img data-fancybox src={crazyBox} alt="Page d'accueil de CrazyBox" loading="lazy" />
           </div>
           <div className="card-action">
             <a href="https://github.com/loic-leprieur/CrazyBox">Dépôt GitHub</a>
@@ -55,7 +60,12 @@ function Portfolio() {
         <div className="card-portfolio">
           <h4 className="card-title">Application Xamarin de tchat</h4>
           <div className="card-image">
-            <img data-fancybox src={xamarinApp} alt="Module de tchat dans une appli Xamarin" />
+            <img
+              data-fancybox
+              src={xamarinApp}
+              alt="Module de tchat dans une appli Xamarin"
+              loading="lazy"
+            />
           </div>
           <div className="card-action">
             <p>
@@ -68,7 +78,12 @@ function Portfolio() {
         <div className="card-portfolio">
           <h4 className="card-title">Application Todo list Android</h4>
           <div className="card-image">
-            <img data-fancybox src={todoList} alt="Liste de tâches à faire dans une app Android" />
+            <img
+              data-fancybox
+              src={todoList}
+              alt="Liste de tâches à faire dans une app Android"
+              loading="lazy"
+            />
           </div>
           <div className="card-action">
             <a href="https://github.com/loic-leprieur/TodoList">Dépôt GitHub</a>
@@ -87,6 +102,7 @@ function Portfolio() {
               data-fancybox
               src={aventureTextuelle}
               alt="Niveau de base avec une porte, une clé et un mobilier"
+              loading="lazy"
             />
           </div>
           <div className="card-action">
@@ -104,7 +120,12 @@ function Portfolio() {
         <div className="card-portfolio">
           <h4 className="card-title">Gestionnaire d'évenements à Book'U</h4>
           <div className="card-image">
-            <img data-fancybox src={bookuApp} alt="Page listant les périodes de disponibilité" />
+            <img
+              data-fancybox
+              src={bookuApp}
+              alt="Page listant les périodes de disponibilité"
+              loading="lazy"
+            />
           </div>
           <div className="card-action">
             <p>
@@ -123,6 +144,7 @@ function Portfolio() {
               data-fancybox
               src={oiBaseDoc}
               alt="Intranet de OI pour gérer la base documentaire"
+              loading="lazy"
             />
           </div>
           <div className="card-action">

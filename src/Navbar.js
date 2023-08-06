@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './assets/img/logo.png'
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
         <span className="nav-title-align">
           <a href="/" className="brand-logo">
             {' '}
-            <span className="logo">L</span>
+            <img id="logo" src={logo} alt="Lettre L cursive" loading="lazy" />
             <span className="logo-text">oïc LEPRIEUR</span>
           </a>
           <a href="/" data-target="mobile-demo" className="sidenav-trigger">
@@ -17,30 +18,52 @@ function Navbar() {
         </span>
         <ul className="right hide-on-med-and-down">
           <li>
-            <a id="link-home" href="#accueil">
+            <a id="link-home" href="/">
               Accueil
             </a>
           </li>
           <li>
-            <a href="../blog">Blog</a>
+            <a id="link-blog" href="https://blog.loic-leprieur.fr">
+              Blog
+            </a>
           </li>
           <li>
-            <a id="link-formation" href="#formation">
+            <a
+              id="link-formation"
+              href="/"
+              onClick={function (e) {
+                e.preventDefault()
+              }}>
               Formation
             </a>
           </li>
           <li>
-            <a id="link-portfolio" href="#portfolio">
+            <a
+              id="link-portfolio"
+              href="/"
+              onClick={function (e) {
+                e.preventDefault()
+              }}>
               Portfolio
             </a>
           </li>
           <li>
-            <a id="link-infos" href="#infos">
+            <a
+              id="link-infos"
+              href="/"
+              onClick={function (e) {
+                e.preventDefault()
+              }}>
               Infos
             </a>
           </li>
           <li>
-            <a id="link-contact" href="#contact">
+            <a
+              id="link-contact"
+              href="/"
+              onClick={function (e) {
+                e.preventDefault()
+              }}>
               Contact
             </a>
           </li>
@@ -48,32 +71,48 @@ function Navbar() {
       </div>
       <ul className="sidenav white darken-4" id="mobile-demo">
         <li>
-          <a href="#accueil">
+          <a href="/">
             <i className="medium material-icons">home</i>Accueil
           </a>
         </li>
         <li>
-          <a href="../blog">
+          <a href="https://blog.loic-leprieur.fr">
             <i className="medium material-icons">speaker_notes</i>Blog
           </a>
         </li>
         <li>
-          <a href="#formation">
+          <a
+            href="/"
+            onClick={function (e) {
+              e.preventDefault()
+            }}>
             <i className="medium material-icons">school</i>Formation
           </a>
         </li>
         <li>
-          <a href="#portfolio">
+          <a
+            href="/"
+            onClick={function (e) {
+              e.preventDefault()
+            }}>
             <i className="medium material-icons">business_center</i>Portfolio
           </a>
         </li>
         <li>
-          <a href="#infos">
+          <a
+            href="/"
+            onClick={function (e) {
+              e.preventDefault()
+            }}>
             <i className="medium material-icons">info</i>Infos
           </a>
         </li>
         <li>
-          <a href="#contact">
+          <a
+            href="/"
+            onClick={function (e) {
+              e.preventDefault()
+            }}>
             <i className="medium material-icons">contact_mail</i>Contact
           </a>
         </li>

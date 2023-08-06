@@ -8,7 +8,7 @@ function Formation() {
     <section id="formation" className="section grey darken-4">
       <div className="carousel carousel-slider center">
         <div id="carousel-item-dueti" className="carousel-item">
-          <img src={vives} alt="Globe terrestre" className="carousel-background" />
+          <img src={vives} alt="Globe terrestre" className="carousel-background" loading="lazy" />
           <div className="carousel-content">
             <div className="headline">
               <h3 className="center-align">DUETI (Erasmus)</h3>
@@ -29,7 +29,7 @@ function Formation() {
           </div>
         </div>
         <div id="carousel-item-dut" className="carousel-item">
-          <img src={iut} alt="Lignes de code" className="carousel-background" />
+          <img src={iut} alt="Lignes de code" className="carousel-background" loading="lazy" />
           <div className="carousel-content">
             <div className="headline">
               <h3 className="center-align">DUT Informatique</h3>
@@ -49,7 +49,12 @@ function Formation() {
           </div>
         </div>
         <div id="carousel-item-acors" className="carousel-item">
-          <img src={acors} alt="Texte coloré de 'Social Media'" className="carousel-background" />
+          <img
+            src={acors}
+            alt="Texte coloré de 'Social Media'"
+            className="carousel-background"
+            loading="lazy"
+          />
           <div className="carousel-content">
             <div className="headline">
               <h3 className="center-align">Niveau Licence ACORS</h3>

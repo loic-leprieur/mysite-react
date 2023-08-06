@@ -13,7 +13,7 @@ function Experiences() {
       <div className="row">
         <div className="col l12 m12 s12">
           <div className="card large white darken-4 z-depth-2">
-            <img className="img-background-exp" src={xray} alt="scanner irm" />
+            <img className="img-background-exp" src={xray} alt="scanner irm" loading="lazy" />
             <div className="card-content">
               <div className="headline">
                 <h3 className="center-align card-title">ALARA Expertise</h3>
@@ -39,7 +39,12 @@ function Experiences() {
         </div>
         <div className="col l4 m6 s12">
           <div className="card large white darken-4 z-depth-2">
-            <img className="img-background-exp" src={mercedes} alt="Voiture Mercedes rouge" />
+            <img
+              className="img-background-exp"
+              src={mercedes}
+              alt="Voiture Mercedes rouge"
+              loading="lazy"
+            />
             <div className="card-content">
               <div className="headline">
                 <h3 className="center-align card-title">La Fabrik à ID</h3>
@@ -64,7 +69,12 @@ function Experiences() {
         </div>
         <div className="col l4 m6 s12">
           <div className="card large white darken-4 z-depth-2">
-            <img className="img-background-exp" src={carteBancaire} alt="Carte bancaire" />
+            <img
+              className="img-background-exp"
+              src={carteBancaire}
+              alt="Carte bancaire"
+              loading="lazy"
+            />
             <div className="card-content">
               <div className="headline">
                 <h3 className="center-align card-title">
@@ -92,7 +102,12 @@ function Experiences() {
         </div>
         <div className="col l4 m6 s12">
           <div className="card large white darken-4 z-depth-2">
-            <img className="img-background-exp" src={kp1} alt="Chantier avec des grues" />
+            <img
+              className="img-background-exp"
+              src={kp1}
+              alt="Chantier avec des grues"
+              loading="lazy"
+            />
             <div className="card-content">
               <div className="headline">
                 <h3 className="center-align card-title">2S2I Solutions / KP1</h3>
@@ -123,6 +138,7 @@ function Experiences() {
               className="img-background-exp"
               src={switchIT}
               alt="Article avec des statistiques financières"
+              loading="lazy"
             />
             <div className="card-content">
               <div className="headline">
@@ -151,6 +167,7 @@ function Experiences() {
               className="img-background-exp"
               src={booku}
               alt="Evénement de type salon professionnel avec des stands"
+              loading="lazy"
             />
             <div className="card-content">
               <div className="headline">
@@ -176,7 +193,12 @@ function Experiences() {
 
         <div className="col l4 m6 s12">
           <div className="card large white darken-4 z-depth-2">
-            <img className="img-background-exp" src={stageDUT} alt="Bouteilles en verre" />
+            <img
+              className="img-background-exp"
+              src={stageDUT}
+              alt="Bouteilles en verre"
+              loading="lazy"
+            />
             <div className="card-content">
               <div className="headline">
                 <h3 className="center-align card-title">O-I Manufacturing</h3>

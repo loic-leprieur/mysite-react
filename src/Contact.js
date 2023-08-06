@@ -6,7 +6,8 @@ import ReCaptcha from 'react-recaptcha'
 import { useState } from 'react'
 
 function isValidEmail(email) {
-  var regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+  var regex =
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
   return regex.test(email)
 }
 
@@ -47,11 +48,7 @@ function validateForm() {
     setCalloutEmailWarning()
     return false
   } else {
-    if (
-      $('#message')
-        .val()
-        .indexOf(';') !== -1
-    ) {
+    if ($('#message').val().indexOf(';') !== -1) {
       setCalloutMessageWarning()
       return false
     } else {
@@ -68,19 +65,19 @@ function Contact() {
   const [status, setStatus] = useState('')
   const [response, setResponse] = useState(null)
 
-  const handleChangeMessage = event => {
+  const handleChangeMessage = (event) => {
     setMessage(event.target.value)
   }
 
-  const handleChangeExpediteur = event => {
+  const handleChangeExpediteur = (event) => {
     setExpediteur(event.target.value)
   }
 
-  const handleChangeEmail = event => {
+  const handleChangeEmail = (event) => {
     setEmail(event.target.value)
   }
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault() // empêche le rechargement de la page
 
     if (validateForm()) {
@@ -99,11 +96,11 @@ function Contact() {
             }
           }
         )
-        .then(response => {
+        .then((response) => {
           setStatus('success')
           console.log(response)
         })
-        .catch(error => {
+        .catch((error) => {
           setStatus('error')
           console.error(error)
         })
@@ -122,7 +119,7 @@ function Contact() {
           <div className="row">
             <form
               method="post"
-              onSubmit={e => handleSubmit(e)}
+              onSubmit={(e) => handleSubmit(e)}
               id="contact-form"
               action="http://localhost:8000/contact"
               name="contact-form">
@@ -137,6 +134,7 @@ function Contact() {
                   placeholder="John DOE"
                   className="input-contact"
                   required
+                  autoComplete="name"
                 />
 
                 <label htmlFor="email">E-mail</label>
@@ -149,6 +147,7 @@ function Contact() {
                   placeholder="john.doe@email.com"
                   className="input-contact"
                   required
+                  autoComplete="email"
                 />
 
                 <label htmlFor="message">Message</label>
@@ -164,7 +163,7 @@ function Contact() {
                 <br />
                 <ReCaptcha
                   sitekey="6LeCU9keAAAAAKv6LbiviEfv9t2IsHsOMbhmnzov"
-                  verifyCallback={response => setResponse(response)}
+                  verifyCallback={(response) => setResponse(response)}
                 />
                 <br />
 
@@ -180,7 +179,7 @@ function Contact() {
           </div>
         </div>
         <div className="parallax">
-          <img src={clavier} alt="Clavier RGB" />
+          <img src={clavier} alt="Clavier RGB" loading="lazy" />
         </div>
       </div>
     </section>

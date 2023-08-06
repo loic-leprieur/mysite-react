@@ -14,7 +14,7 @@ function Footer() {
             Retrouvez tous mes travaux sur<a href="https://github.com/loic-leprieur"> GitHub</a>
           </p>
           <a className="right" href="https://twitter.com/le_lowick">
-            Twitter - @le_lowick
+            𝕏 - @le_lowick
           </a>
         </div>
       </div>
