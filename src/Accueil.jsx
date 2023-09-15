@@ -90,7 +90,7 @@ function Accueil() {
 
   useEffect(() => {
     smoothScrollToSection('.brand-logo', '#top', 80)
-    smoothScrollToSection('#link-formation', '#formation', 80)
+    smoothScrollToSection('#link-formation', '#formation', 65)
     smoothScrollToSection('#link-portfolio', '#portfolio', 200)
     smoothScrollToSection('#link-infos', '#infos', 80)
     smoothScrollToSection('#link-contact', '#contact', 80)
