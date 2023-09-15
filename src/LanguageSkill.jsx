@@ -14,8 +14,8 @@ function LanguageSkill() {
           and foreign students from all over Europe and further.
         </p>{' '}
         <p>
-          It helped me grasping the remaining English's subtilities and using it for in reality.
-          Such experience is unmatched in someone's life and so it was for me as well.
+          It helped me grasping the remaining English&apos;s subtilities and using it for in
+          reality. Such experience is unmatched in someone&apos;s life and so it was for me as well.
         </p>
         <p>It blew my mind and changed forever my vision on the world.</p>
       </div>

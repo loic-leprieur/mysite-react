@@ -5,17 +5,17 @@ function Infos() {
 
       <div id="card-infos" className="card white darken-4 black-text">
         <p>
-          Je suis un développeur polyvalent avec 3 ans d'expériences dans le développement web
+          Je suis un développeur polyvalent avec 3 ans d&apos;expériences dans le développement web
           backend et frontend. Côté attitute, je suis sérieux mais taquineur, curieux, bon vivant et
-          d'un calme Olympien. Je me donne toujours à 100% pour chacune de mes tâches et prend un
-          grand plaisir à travailler dans mon domaine : le code, que je considère comme un artisanat
-          numérique 🧑🏻‍💻.
+          d&apos;un calme Olympien. Je me donne toujours à 100% pour chacune de mes tâches et prend
+          un grand plaisir à travailler dans mon domaine : le code, que je considère comme un
+          artisanat numérique 🧑🏻‍💻.
         </p>
 
         <p>
-          Au cours de mes expériences professionnelles j'ai eu la chance de travailler dans des
-          secteurs très différents : le BTP, la banque et l'assurance vie, l'automobile ou encore la
-          médecine nucléaire. Les technologies auxquelles j'ai pu toucher sont :
+          Au cours de mes expériences professionnelles j&apos;ai eu la chance de travailler dans des
+          secteurs très différents : le BTP, la banque et l&apos;assurance vie, l&apos;automobile ou
+          encore la médecine nucléaire. Les technologies auxquelles j&apos;ai pu toucher sont :
         </p>
         <div id="skills-container">
           <div className="list-parent-skills">
@@ -59,19 +59,19 @@ function Infos() {
         </div>
 
         <p>
-          J'apprends vite et je continue de me former à de nouvelles technologies ou techniques. En
-          ce moment je me met en place un environement de développement avec des conteneurs, je
-          convertis mon site à React et je teste les IA génératives comme Chat GPT aussi pour
-          augmenter ma productivité que pour divers projets en Python.
+          J&apos;apprends vite et je continue de me former à de nouvelles technologies ou
+          techniques. En ce moment je me met en place un environement de développement avec des
+          conteneurs, je convertis mon site à React et je teste les IA génératives comme Chat GPT
+          aussi pour augmenter ma productivité que pour divers projets en Python.
           <br />
-          Proactif, force de proposition et autonome j'ai tendance à approcher un projet par son
-          achitecture en l'analysant via des diagrammes puis à ajouter ou modifier une feature
-          jusqu'à pleinement comprendre la base de code sur le bout des doigts.
+          Proactif, force de proposition et autonome j&apos;ai tendance à approcher un projet par
+          son achitecture en l&apos;analysant via des diagrammes puis à ajouter ou modifier une
+          feature jusqu&apos;à pleinement comprendre la base de code sur le bout des doigts.
         </p>
         <p>
-          En dehors du travail et de la programmation je m'intéresse à l'astronomie, je fais des
-          lives sur Twitch, je joue à certains jeux sur PC ou sur Switch et je lis des livres
-          policiers et fantastiques (The Witcher et les romans d'Agatha Christie&nbsp;
+          En dehors du travail et de la programmation je m&apos;intéresse à l&apos;astronomie, je
+          fais des lives sur Twitch, je joue à certains jeux sur PC ou sur Switch et je lis des
+          livres policiers et fantastiques (The Witcher et les romans d&apos;Agatha Christie&nbsp;
           <span role="img" aria-label="Coeur">
             ❤️
           </span>

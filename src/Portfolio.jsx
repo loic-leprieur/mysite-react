@@ -25,8 +25,8 @@ function Portfolio() {
           <div className="card-action">
             <a href="https://github.com/loic-leprieur/shop-and-cook">Dépôt GitHub</a>
             <p>
-              Application Android de recherche de recette via une API et d'enregistrements
-              d'ingrédients
+              Application Android de recherche de recette via une API et d&apos;enregistrements
+              d&apos;ingrédients
             </p>
           </div>
         </div>
@@ -40,7 +40,7 @@ function Portfolio() {
             <a href="https://github.com/loic-leprieur/CrazyBox">Dépôt GitHub</a>
             <p>
               Site web en PHP et jQuery pour la création de pochettes cadeaux. Réalisé lors du
-              hackaton 'Crazy Charly Day' de l'IUT Charlemagne
+              hackaton &apos;Crazy Charly Day&apos; de l&apos;IUT Charlemagne
             </p>
             <video
               data-fancybox
@@ -51,7 +51,7 @@ function Portfolio() {
               preload="auto"
               width="250px">
               <source src={demoCrazyBox} type="video/mp4" />
-              Sorry, your browser doesn't support embedded videos.
+              Sorry, your browser doesn&apos;t support embedded videos.
             </video>
           </div>
         </div>
@@ -68,7 +68,7 @@ function Portfolio() {
           </div>
           <div className="card-action">
             <p>
-              Composant UI/UX dans une bibliothèque PCL (avec d'autres modules génériques) pour
+              Composant UI/UX dans une bibliothèque PCL (avec d&apos;autres modules génériques) pour
               créer un environnement de tchat (ex: Messenger)
             </p>
           </div>
@@ -95,7 +95,7 @@ function Portfolio() {
         </div>
 
         <div className="card-portfolio">
-          <h4 className="card-title">Jeu d'aventures textuelles</h4>
+          <h4 className="card-title">Jeu d&apos;aventures textuelles</h4>
           <div className="card-image">
             <img
               data-fancybox
@@ -107,17 +107,17 @@ function Portfolio() {
           <div className="card-action">
             <a href="https://github.com/loic-leprieur/jeu-aventure-textuel">Dépôt GitHub</a>
             <p>
-              Jeu d'aventures textuelles réalisé avec un analyseur synthaxique et un éditeur de
-              niveaux. Le principe repose sur les jeux des années 80's où l'on saisissait du texte
-              pour exécuter des actions et dont la problématique reposait sur les commandes
-              comprises par l'ordinateur et l'enchaînement des puzzles avec les objets et les
-              éléments du décor. Application réalisée avec Java FX en version 8.
+              Jeu d&apos;aventures textuelles réalisé avec un analyseur synthaxique et un éditeur de
+              niveaux. Le principe repose sur les jeux des années 80&apos;s où l&apos;on saisissait
+              du texte pour exécuter des actions et dont la problématique reposait sur les commandes
+              comprises par l&apos;ordinateur et l&apos;enchaînement des puzzles avec les objets et
+              les éléments du décor. Application réalisée avec Java FX en version 8.
             </p>
           </div>
         </div>
 
         <div className="card-portfolio">
-          <h4 className="card-title">Gestionnaire d'évenements à Book'U</h4>
+          <h4 className="card-title">Gestionnaire d&apos;évenements à Book&apos;U</h4>
           <div className="card-image">
             <img
               data-fancybox
@@ -129,9 +129,9 @@ function Portfolio() {
           <div className="card-action">
             <p>
               Application web Angular pour gérer des événements comme des salons. Réalisé avec la
-              méthodologie SCRUM au sein d'une équipe de 3 autres étudiants flammands à Courtrai
-              (Belgique) pour la start-up <strong>Book'u</strong> afin de tester la technologie.
-              (Une application mobile avec Ionic avait aussi été réalisé en parallèle)
+              méthodologie SCRUM au sein d&apos;une équipe de 3 autres étudiants flammands à
+              Courtrai (Belgique) pour la start-up <strong>Book&apos;u</strong> afin de tester la
+              technologie. (Une application mobile avec Ionic avait aussi été réalisé en parallèle)
             </p>
           </div>
         </div>
@@ -149,12 +149,13 @@ function Portfolio() {
           <div className="card-action">
             <a href="https://github.com/loic-leprieur/OI-BaseDocumentaire">Dépot GitHub</a>
             <p>
-              Pour remplacer une application sous Microsoft Access difficile à maintenir. Lors d'un
-              stage à O-I Manufacturing (verrerie à Gironcourt-sur-Vraine) j'ai réalisé un site web
-              sur l'intranet de l'entreprise en ASP.NET MVC 5 gérant la base documentaire. Il était
-              possible de récupérer les documents du serveur Windows et les afficher sur le site
-              dans un tableau triable, filtrable et avec une barre de recherche, la base de données
-              sous SQL Server a permis de catégoriser les documents à partir de leur nom.
+              Pour remplacer une application sous Microsoft Access difficile à maintenir. Lors
+              d&apos;un stage à O-I Manufacturing (verrerie à Gironcourt-sur-Vraine) j&apos;ai
+              réalisé un site web sur l&apos;intranet de l&apos;entreprise en ASP.NET MVC 5 gérant
+              la base documentaire. Il était possible de récupérer les documents du serveur Windows
+              et les afficher sur le site dans un tableau triable, filtrable et avec une barre de
+              recherche, la base de données sous SQL Server a permis de catégoriser les documents à
+              partir de leur nom.
             </p>
           </div>
         </div>

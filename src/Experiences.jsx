@@ -17,21 +17,23 @@ function Experiences() {
               <div className="headline">
                 <h3 className="center-align card-title">ALARA Expertise</h3>
                 <h4 className="center-align card-location">Entzheim</h4>
-                <h5 className="center-align card-employment-period">Novembre 2022 - Aujourd'hui</h5>
+                <h5 className="center-align card-employment-period">
+                  Novembre 2022 - Aujourd&apos;hui
+                </h5>
               </div>
 
               <div className="divider"></div>
               <p className="job-description">
                 La société <strong>ALARA Expertise</strong> du groupe ALARA Group conçoit des
-                solutions dans la radio-protection. Comme la mesure du niveau d'exposition aux
+                solutions dans la radio-protection. Comme la mesure du niveau d&apos;exposition aux
                 rayonnements ionisants et non ionisants des radios et IRMs médicaux. Le siège est
                 présent à Entzheim mais emploie des collaborateurs sur toute la France pour la
-                maintenance, l'installation et la prospection pour les produits vendus par
-                l'entreprise.
+                maintenance, l&apos;installation et la prospection pour les produits vendus par
+                l&apos;entreprise.
               </p>
               <p className="job-description">
-                En tant que développeur Java, je travaille sur les solutions web comme l'ERP, aussi
-                bien en backend avec JPA/Hibernate qu'en front-end avec GWT.
+                En tant que développeur Java, je travaille sur les solutions web comme l&apos;ERP,
+                aussi bien en backend avec JPA/Hibernate qu&apos;en front-end avec GWT.
               </p>
             </div>
           </div>
@@ -58,10 +60,10 @@ function Experiences() {
                 scanners de plaques et un CRM intégré.
               </p>
               <p className="job-description">
-                Bien que court, mon passage m'a permis de cerner les enjeux techniques et
-                fonctionnels des solutions proposées et j'ai pu participer à la mise en place du
-                nouveau CRM en intégrant les composants de création de compte de vendeurs, la
-                gestion des utilisateurs ou encore la création et la gestion d'équipes.
+                Bien que court, mon passage m&apos;a permis de cerner les enjeux techniques et
+                fonctionnels des solutions proposées et j&apos;ai pu participer à la mise en place
+                du nouveau CRM en intégrant les composants de création de compte de vendeurs, la
+                gestion des utilisateurs ou encore la création et la gestion d&apos;équipes.
               </p>
             </div>
           </div>
@@ -91,10 +93,10 @@ function Experiences() {
                 Mutuel-CIC.
               </p>
               <p className="job-description">
-                J'ai rejoint la partie monétique - recouvrement commerçant afin d'améliorer et de
-                maintenir les applications intranet en C# / ASP.NET (framework Devbooster) dont des
-                solutions pour l'historisation des cartes et des transactions et le suspens /
-                annulation des remises.
+                J&apos;ai rejoint la partie monétique - recouvrement commerçant afin
+                d&apos;améliorer et de maintenir les applications intranet en C# / ASP.NET
+                (framework Devbooster) dont des solutions pour l&apos;historisation des cartes et
+                des transactions et le suspens / annulation des remises.
               </p>
             </div>
           </div>
@@ -123,9 +125,9 @@ function Experiences() {
                 élaborer des produits en BIM.
               </p>
               <p className="job-description">
-                Chargé de reprendre le développement d'un outils de dessin essentiel pour les
-                bureaux d'études, je monte en compétences et je propose des solutions afin de
-                l'améliorer.
+                Chargé de reprendre le développement d&apos;un outils de dessin essentiel pour les
+                bureaux d&apos;études, je monte en compétences et je propose des solutions afin de
+                l&apos;améliorer.
               </p>
             </div>
           </div>
@@ -149,12 +151,12 @@ function Experiences() {
               <div className="divider"></div>
               <p className="job-description">
                 Switch IT est un éditeur de logiciel luxembourgeois dédié au développement de
-                solutions informatiques pour les sociétés d'assurance vie.
+                solutions informatiques pour les sociétés d&apos;assurance vie.
               </p>
               <p className="job-description">
-                En tant que salarié en période d'essai, j'ai travaillé sur l'ajout de fontionnalités
-                dans une application web en ASP.NET Forms et une application mobile Xamarin (iOS et
-                Android).
+                En tant que salarié en période d&apos;essai, j&apos;ai travaillé sur l&apos;ajout de
+                fontionnalités dans une application web en ASP.NET Forms et une application mobile
+                Xamarin (iOS et Android).
               </p>
             </div>
           </div>
@@ -170,21 +172,23 @@ function Experiences() {
             />
             <div className="card-content">
               <div className="headline">
-                <h3 className="center-align card-title">Book'u</h3>
+                <h3 className="center-align card-title">Book&apos;u</h3>
                 <h4 className="center-align card-location">Kortrijk, Belgique</h4>
                 <h5 className="center-align card-employment-period">Stage en 2017</h5>
               </div>
               <div className="divider"></div>
               <p className="job-description">
-                La start-up Book'u conçoit des applications clés en main pour la gestion
-                d'événements tels que des salons/expositions. L'outils principal permet de finement
-                gérer les aspects humains, financiers et temporels qu'implique ce type de projet.
+                La start-up Book&apos;u conçoit des applications clés en main pour la gestion
+                d&apos;événements tels que des salons/expositions. L&apos;outils principal permet de
+                finement gérer les aspects humains, financiers et temporels qu&apos;implique ce type
+                de projet.
               </p>
               <p className="job-description">
                 Ce dernier créé avec une architecture spécifiquement orienté vers les ordinateurs de
-                bureau avait besoin d'une version plus légère et adapté aux mobiles. Avec d'autres
-                étudiants de l'université VIVES à Courtai, j'ai eu l'opportunité de tester les
-                technologies Ionic et AngularJS afin de proposer un prototype répondant à ce besoin.
+                bureau avait besoin d&apos;une version plus légère et adapté aux mobiles. Avec
+                d&apos;autres étudiants de l&apos;université VIVES à Courtai, j&apos;ai eu
+                l&apos;opportunité de tester les technologies Ionic et AngularJS afin de proposer un
+                prototype répondant à ce besoin.
               </p>
             </div>
           </div>
@@ -207,14 +211,15 @@ function Experiences() {
               <div className="divider"></div>
               <p className="job-description">
                 O-I Manufacturing est une entreprise internationale spécialisée dans la fabrication
-                d'objets en verre. La filiale de Gironcourt-Sur-Vraine est une verrerie du groupe
-                qui recycle des bouteilles usagées en nouvelles qui sont destinées aux spiritueux.
+                d&apos;objets en verre. La filiale de Gironcourt-Sur-Vraine est une verrerie du
+                groupe qui recycle des bouteilles usagées en nouvelles qui sont destinées aux
+                spiritueux.
               </p>
               <p className="job-description">
-                Recruté en tant que stagiaire j'ai conçu une application ASP.NET qui récupère les
-                documents présents sur le serveur, les organise dans une base de données puis
+                Recruté en tant que stagiaire j&apos;ai conçu une application ASP.NET qui récupère
+                les documents présents sur le serveur, les organise dans une base de données puis
                 affiche un site en intranet où chaque employé connecté peut rechercher, trier ou
-                filtrer par des catégories les documents qu'il souhaite.
+                filtrer par des catégories les documents qu&apos;il souhaite.
               </p>
             </div>
           </div>
