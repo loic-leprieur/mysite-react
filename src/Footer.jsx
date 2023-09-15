@@ -1,5 +1,3 @@
-import React from 'react'
-
 function getCurrentYear() {
   return new Date().getFullYear().toString()
 }
@@ -13,7 +11,7 @@ function Footer() {
           <p className="black-text">
             Retrouvez tous mes travaux sur<a href="https://github.com/loic-leprieur"> GitHub</a>
           </p>
-          <a className="right" href="https://twitter.com/le_lowick">
+          <a className="right" href="https://x.com/le_lowick">
             𝕏 - @le_lowick
           </a>
         </div>

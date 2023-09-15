@@ -6,7 +6,6 @@ import todoList from './assets/img/screenshot _app_TodoList.jpg'
 import aventureTextuelle from './assets/img/screenshot_aventure_textuelle.jpg'
 import bookuApp from './assets/img/booku-appli-screenshot.gif'
 import oiBaseDoc from './assets/img/basedocumentaireOI.png'
-import React from 'react'
 
 function Portfolio() {
   return (

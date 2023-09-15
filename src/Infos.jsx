@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Infos() {
   return (
     <section id="infos" className="section">

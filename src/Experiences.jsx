@@ -5,7 +5,6 @@ import switchIT from './assets/img/switch-1.jpg'
 import booku from './assets/img/booku-2.jpg'
 import stageDUT from './assets/img/stage-dut.jpg'
 import xray from './assets/img/x-ray.jpg'
-import React from 'react'
 
 function Experiences() {
   return (

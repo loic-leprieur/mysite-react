@@ -1,5 +1,4 @@
 import atomium from './assets/img/brugges-erasmus.jpg'
-import React from 'react'
 
 function LanguageSkill() {
   return (
