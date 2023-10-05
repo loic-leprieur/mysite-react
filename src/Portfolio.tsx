@@ -1,11 +1,15 @@
-import shopNcook from './assets/img/screenshot_appli_ShopNCook.jpg'
-import demoCrazyBox from './assets/video/demo-crazybox.mp4'
-import crazyBox from './assets/img/crazybox.png'
-import xamarinApp from './assets/img/tchat-img.jpg'
-import todoList from './assets/img/screenshot _app_TodoList.jpg'
-import aventureTextuelle from './assets/img/screenshot_aventure_textuelle.jpg'
-import bookuApp from './assets/img/booku-appli-screenshot.gif'
-import oiBaseDoc from './assets/img/basedocumentaireOI.png'
+import shopNcook from './assets/img/screenshot_appli_ShopNCook.jpg';
+import demoCrazyBox from './assets/video/demo-crazybox.mp4';
+import crazyBox from './assets/img/crazybox.png';
+import xamarinApp from './assets/img/tchat-img.jpg';
+import todoList from './assets/img/screenshot _app_TodoList.jpg';
+import aventureTextuelle from './assets/img/screenshot_aventure_textuelle.jpg';
+import bookuApp from './assets/img/booku-appli-screenshot.gif';
+import oiBaseDoc from './assets/img/basedocumentaireOI.png';
+import React from 'react';
+import type { Fancybox as FancyboxType } from '@fancyapps/ui/types';
+import * as Fancyapps from '@fancyapps/ui';
+const Fancybox: typeof FancyboxType = Fancyapps.Fancybox;
 
 function Portfolio() {
   return (
@@ -44,7 +48,7 @@ function Portfolio() {
             </p>
             <video
               data-fancybox
-              href={demoCrazyBox}
+              src={demoCrazyBox}
               controls
               loop
               autoPlay
@@ -161,7 +165,7 @@ function Portfolio() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Portfolio
+export default Portfolio;

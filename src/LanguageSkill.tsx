@@ -1,4 +1,5 @@
-import atomium from './assets/img/brugges-erasmus.jpg'
+import React from 'react';
+import atomium from './assets/img/brugges-erasmus.jpg';
 
 function LanguageSkill() {
   return (
@@ -23,7 +24,7 @@ function LanguageSkill() {
         <img src={atomium} alt="Atomium de Bruxelles" loading="lazy" />
       </div>
     </div>
-  )
+  );
 }
 
-export default LanguageSkill
+export default LanguageSkill;

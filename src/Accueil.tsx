@@ -1,100 +1,96 @@
-import { useEffect, useRef, useState } from 'react'
-import profil from './assets/img/profil.jpg'
-import programming from './assets/img/programing-photo-1.jpg'
-import LanguageSkill from './LanguageSkill'
-import Experiences from './Experiences'
-import Infos from './Infos'
-import Contact from './Contact'
-import Formation from './Formation'
-import Portfolio from './Portfolio'
+import { useEffect, useRef, useState } from 'react';
+import profil from './assets/img/profil.jpg';
+import programming from './assets/img/programing-photo-1.jpg';
+import LanguageSkill from './LanguageSkill';
+import Experiences from './Experiences';
+import Infos from './Infos';
+import Contact from './Contact';
+import Formation from './Formation';
+import Portfolio from './Portfolio';
+import React from 'react';
 
 function Accueil() {
   function nbYearsSinceBirthday() {
-    const pastDate = new Date('1996-05-17')
-    const currentYear = new Date().getFullYear()
-    return currentYear - pastDate.getFullYear()
+    const pastDate = new Date('1996-05-17');
+    const currentYear = new Date().getFullYear();
+    return currentYear - pastDate.getFullYear();
   }
 
-  const [opacity, setOpacity] = useState(0)
-  const intervalID = useRef(null)
+  const [opacity, setOpacity] = useState(0);
 
   useEffect(() => {
-    const bannerProfile = document.getElementById('banner-profile')
-    const navbar = document.getElementById('navbar')
+    const bannerProfile = document.getElementById('banner-profile');
+    const navbar = document.getElementById('navbar');
 
     // Function to handle fade-in effect
     function show() {
       if (bannerProfile) {
         setOpacity((prevOpacity) => {
-          if (prevOpacity >= 1 && intervalID.current) {
-            clearInterval(intervalID.current)
-          }
-
           if (prevOpacity < 1) {
-            return prevOpacity + 0.1
+            return prevOpacity + 0.1;
           } else {
-            clearInterval(intervalID)
-            return prevOpacity
+            return prevOpacity;
           }
-        })
+        });
       } else {
-        console.warn('Element #banner-profile not found')
+        console.warn('Element #banner-profile not found');
       }
     }
 
     function fadeIn() {
-      intervalID.current = setInterval(show, 200)
+      setInterval(show, 200);
     }
 
-    fadeIn()
+    fadeIn();
 
     function addStickyToNav() {
       if (navbar) {
-        const stickyOffsetTop = navbar.offsetTop
+        const stickyOffsetTop = navbar.offsetTop;
         if (window.scrollY >= stickyOffsetTop) {
-          navbar.classList.add('sticky')
+          navbar.classList.add('sticky');
         } else {
-          navbar.classList.remove('sticky')
+          navbar.classList.remove('sticky');
         }
       } else {
-        console.warn('Element #navbar not found')
+        console.warn('Element #navbar not found');
       }
     }
 
-    window.addEventListener('scroll', addStickyToNav)
+    window.addEventListener('scroll', addStickyToNav);
 
     return () => {
-      window.removeEventListener('scroll', addStickyToNav)
-      if (intervalID.current) {
-        clearInterval(intervalID.current)
-      }
-    }
-  }, [])
+      window.removeEventListener('scroll', addStickyToNav);
+    };
+  }, []);
 
-  function smoothScrollToSection(linkSelector, targetSelector, headerHeight) {
+  function smoothScrollToSection(
+    linkSelector: string,
+    targetSelector: string,
+    headerHeight: number
+  ) {
     document.querySelector(linkSelector)?.addEventListener('click', (e) => {
-      e.preventDefault()
-      const target = document.querySelector(targetSelector)
+      e.preventDefault();
+      const target = document.querySelector(targetSelector);
       if (target) {
-        const targetPosition = target.getBoundingClientRect().top
-        const offset = targetPosition - headerHeight
+        const targetPosition = target.getBoundingClientRect().top;
+        const offset = targetPosition - headerHeight;
         window.scrollBy({
           top: offset,
-          behavior: 'smooth'
-        })
+          behavior: 'smooth',
+        });
       } else {
-        console.warn(`Element ${targetSelector} not found`)
+        console.warn(`Element ${targetSelector} not found`);
       }
-    })
+    });
   }
 
   useEffect(() => {
-    smoothScrollToSection('.brand-logo', '#top', 80)
-    smoothScrollToSection('#link-formation', '#formation', 65)
-    smoothScrollToSection('#link-portfolio', '#portfolio', 200)
-    smoothScrollToSection('#link-infos', '#infos', 80)
-    smoothScrollToSection('#link-contact', '#contact', 80)
-  }, [])
+    smoothScrollToSection('.brand-logo', '#top', 80);
+    smoothScrollToSection('#link-formation', '#formation', 65);
+    smoothScrollToSection('#link-portfolio', '#portfolio', 200);
+    smoothScrollToSection('#link-infos', '#infos', 80);
+    smoothScrollToSection('#link-contact', '#contact', 80);
+  }, []);
 
   return (
     <div id="main">
@@ -136,7 +132,7 @@ function Accueil() {
       <Infos />
       <Contact />
     </div>
-  )
+  );
 }
 
-export default Accueil
+export default Accueil;

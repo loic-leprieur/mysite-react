@@ -1,9 +1,10 @@
-import vives from './assets/img/vives-1.png'
-import iut from './assets/img/iut-1.jpg'
-import acors from './assets/img/acors-illustration.jpg'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import vives from './assets/img/vives-1.png';
+import iut from './assets/img/iut-1.jpg';
+import acors from './assets/img/acors-illustration.jpg';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import React from 'react';
 
 function Formation() {
   const settings = {
@@ -12,8 +13,8 @@ function Formation() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    swipeToSlide: true
-  }
+    swipeToSlide: true,
+  };
 
   const slides = [
     {
@@ -30,7 +31,7 @@ function Formation() {
           <br />
           Travaux individuels avec évaluation du tuteur et un projet de fin de semestre en groupe.
         </div>
-      )
+      ),
     },
 
     {
@@ -51,7 +52,7 @@ function Formation() {
             </ul>
           </div>
         </div>
-      )
+      ),
     },
     {
       src: acors,
@@ -70,9 +71,9 @@ function Formation() {
             </p>
           </div>
         </div>
-      )
-    }
-  ]
+      ),
+    },
+  ];
 
   return (
     <section id="formation" className="section grey darken-4">
@@ -87,7 +88,7 @@ function Formation() {
         </Slider>
       </div>
     </section>
-  )
+  );
 }
 
-export default Formation
+export default Formation;

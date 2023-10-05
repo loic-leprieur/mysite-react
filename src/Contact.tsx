@@ -1,43 +1,44 @@
-import { useState } from 'react'
-import clavier from './assets/img/programing-photo.jpg'
-import axios from 'axios'
-import ReCaptcha from 'react-recaptcha'
+import { SetStateAction, useState } from 'react';
+import clavier from './assets/img/programing-photo.jpg';
+import axios from 'axios';
+import ReCaptcha from 'react-recaptcha';
+import React from 'react';
 
-function isValidEmail(email) {
+function isValidEmail(email: string) {
   const regex =
-    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
-  return regex.test(email)
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+  return regex.test(email);
 }
 
 function Contact() {
-  const [message, setMessage] = useState('')
-  const [expediteur, setExpediteur] = useState('')
-  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('');
+  const [expediteur, setExpediteur] = useState('');
+  const [email, setEmail] = useState('');
   //const [status, setStatus] = useState('')
-  const [alertMessage, setAlertMessage] = useState('')
-  const [alertClass, setAlertClass] = useState('callout not-displayed')
-  const [response, setResponse] = useState(null)
+  const [alertMessage, setAlertMessage] = useState('');
+  const [alertClass, setAlertClass] = useState('callout not-displayed');
+  const [response, setResponse] = useState('');
 
   const validateForm = () => {
     if (!isValidEmail(email)) {
-      setAlertMessage("<strong>ATTENTION : </strong>Votre email n'est pas correct")
-      setAlertClass('callout callout-warning')
-      return false
+      setAlertMessage("<strong>ATTENTION : </strong>Votre email n'est pas correct");
+      setAlertClass('callout callout-warning');
+      return false;
     } else if (message.includes(';')) {
-      setAlertMessage("<strong>ATTENTION :</strong>Votre message n'est pas correct")
-      setAlertClass('callout callout-warning')
-      return false
+      setAlertMessage("<strong>ATTENTION :</strong>Votre message n'est pas correct");
+      setAlertClass('callout callout-warning');
+      return false;
     } else {
-      setAlertMessage('<strong>SUCCES : </strong>Votre message a bien été envoyé')
-      setAlertClass('callout callout-info')
-      return true
+      setAlertMessage('<strong>SUCCES : </strong>Votre message a bien été envoyé');
+      setAlertClass('callout callout-info');
+      return true;
     }
-  }
+  };
 
-  const handleSubmit = (event) => {
-    event.preventDefault()
+  const handleSubmit = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
 
-    const urlEndpoint = `http://${window.location.host}/contact`
+    const urlEndpoint = `http://${window.location.host}/contact`;
 
     if (validateForm()) {
       axios
@@ -48,20 +49,20 @@ function Contact() {
         )
         .then((response) => {
           //setStatus('success')
-          setAlertMessage('<strong>SUCCES : </strong>Votre message a bien été envoyé')
-          setAlertClass('callout callout-info')
-          console.log(response)
+          setAlertMessage('<strong>SUCCES : </strong>Votre message a bien été envoyé');
+          setAlertClass('callout callout-info');
+          console.log(response);
         })
         .catch((error) => {
           //setStatus('error')
           setAlertMessage(
             "<strong>ERREUR : </strong>Une erreur est survenue lors de l'envoi de votre message"
-          )
-          setAlertClass('callout callout-error')
-          console.error(error)
-        })
+          );
+          setAlertClass('callout callout-error');
+          console.error(error);
+        });
     }
-  }
+  };
 
   return (
     <section id="contact">
@@ -110,13 +111,13 @@ function Contact() {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   placeholder="Bonjour Loïc, je vous contacte concernant..."
-                  rows="40"
-                  cols="50"
+                  rows={parseInt('40')}
+                  cols={parseInt('50')}
                   required></textarea>
                 <br />
                 <ReCaptcha
                   sitekey="6LeCU9keAAAAAKv6LbiviEfv9t2IsHsOMbhmnzov"
-                  verifyCallback={(response) => setResponse(response)}
+                  verifyCallback={(response: SetStateAction<string>) => setResponse(response)}
                 />
                 <br />
                 <input
@@ -135,7 +136,7 @@ function Contact() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

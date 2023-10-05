@@ -1,4 +1,5 @@
-import logo from './assets/img/logo.png'
+import React from 'react';
+import logo from './assets/img/logo.png';
 
 function Navbar() {
   return (
@@ -31,7 +32,7 @@ function Navbar() {
               id="link-formation"
               href="/"
               onClick={function (e) {
-                e.preventDefault()
+                e.preventDefault();
               }}>
               Formation
             </a>
@@ -41,7 +42,7 @@ function Navbar() {
               id="link-portfolio"
               href="/"
               onClick={function (e) {
-                e.preventDefault()
+                e.preventDefault();
               }}>
               Portfolio
             </a>
@@ -51,7 +52,7 @@ function Navbar() {
               id="link-infos"
               href="/"
               onClick={function (e) {
-                e.preventDefault()
+                e.preventDefault();
               }}>
               Infos
             </a>
@@ -61,7 +62,7 @@ function Navbar() {
               id="link-contact"
               href="/"
               onClick={function (e) {
-                e.preventDefault()
+                e.preventDefault();
               }}>
               Contact
             </a>
@@ -83,7 +84,7 @@ function Navbar() {
           <a
             href="/"
             onClick={function (e) {
-              e.preventDefault()
+              e.preventDefault();
             }}>
             <i className="medium material-icons">school</i>Formation
           </a>
@@ -92,7 +93,7 @@ function Navbar() {
           <a
             href="/"
             onClick={function (e) {
-              e.preventDefault()
+              e.preventDefault();
             }}>
             <i className="medium material-icons">business_center</i>Portfolio
           </a>
@@ -101,7 +102,7 @@ function Navbar() {
           <a
             href="/"
             onClick={function (e) {
-              e.preventDefault()
+              e.preventDefault();
             }}>
             <i className="medium material-icons">info</i>Infos
           </a>
@@ -110,14 +111,14 @@ function Navbar() {
           <a
             href="/"
             onClick={function (e) {
-              e.preventDefault()
+              e.preventDefault();
             }}>
             <i className="medium material-icons">contact_mail</i>Contact
           </a>
         </li>
       </ul>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

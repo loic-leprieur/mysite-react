@@ -1,10 +1,11 @@
-import mercedes from './assets/img/mercedes.jpg'
-import carteBancaire from './assets/img/carte-bancaire.jpg'
-import kp1 from './assets/img/kp1-4.jpg'
-import switchIT from './assets/img/switch-1.jpg'
-import booku from './assets/img/booku-2.jpg'
-import stageDUT from './assets/img/stage-dut.jpg'
-import xray from './assets/img/x-ray.jpg'
+import mercedes from './assets/img/mercedes.jpg';
+import carteBancaire from './assets/img/carte-bancaire.jpg';
+import kp1 from './assets/img/kp1-4.jpg';
+import switchIT from './assets/img/switch-1.jpg';
+import booku from './assets/img/booku-2.jpg';
+import stageDUT from './assets/img/stage-dut.jpg';
+import xray from './assets/img/x-ray.jpg';
+import React from 'react';
 
 function Experiences() {
   return (
@@ -226,7 +227,7 @@ function Experiences() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Experiences
+export default Experiences;

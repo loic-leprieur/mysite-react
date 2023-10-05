@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Infos() {
   return (
     <section id="infos" className="section">
@@ -101,7 +103,7 @@ function Infos() {
         </ul>
       </div>
     </section>
-  )
+  );
 }
 
-export default Infos
+export default Infos;
