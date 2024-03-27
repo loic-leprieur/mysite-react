@@ -53,7 +53,7 @@ a {
 }
 
 section {
-	min-height: 100vh;
+min-height: 100vh;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -236,7 +236,7 @@ a:hover, #btnSubmit {
 }
 
 #profile-text {
-	font-size: 2rem;
+	font-size: 1.5rem;
     text-shadow: 2px 2px 4px black;  
     font-weight: 300;
     background: rgba(96, 125, 139, 0.4);
@@ -375,7 +375,6 @@ a:hover, #btnSubmit {
 .parallax-container {
 	margin-bottom: 0px;
 	overflow: hidden;
-	min-height: 100vh;
 	display: flex;
     align-content: center;
     justify-content: center;
@@ -442,6 +441,10 @@ a:hover, #btnSubmit {
     flex-wrap: wrap;
     flex-direction: column;
     padding: 1.5% 5% 0% 5%;
+}
+
+.carousel-content p, .carousel-content h3, .carousel-content h4 {
+	pointer-events: none;
 }
 
 .carousel .indicators .indicator-item  {
