@@ -16,23 +16,25 @@ function Experiences() {
             <img className="img-background-exp" src={xray} alt="scanner irm" loading="lazy" />
             <div className="card-content">
               <div className="headline">
-                <h3 className="center-align card-title">ALARA Expertise</h3>
+                <h3 className="center-align card-title">ALARA Group</h3>
                 <h4 className="center-align card-location">Entzheim</h4>
                 <h5 className="center-align card-employment-period">Novembre 2022 - Aujourd'hui</h5>
               </div>
 
               <div className="divider"></div>
+
               <p className="job-description">
-                La société <strong>ALARA Expertise</strong> du groupe ALARA Group conçoit des
-                solutions dans la radio-protection. Comme la mesure du niveau d'exposition aux
-                rayonnements ionisants et non ionisants des radios et IRMs médicaux. Le siège est
-                présent à Entzheim mais emploie des collaborateurs sur toute la France pour la
-                maintenance, l'installation et la prospection pour les produits vendus par
-                l'entreprise.
+                La société <a href="https://alara-group.fr/">ALARA Group</a> conçoit des solutions
+                dans la radio-protection. Comme la mesure du niveau d'exposition aux rayonnements
+                ionisants et non ionisants pour le secteur médical, vétérinaire, dentaire et
+                industrielx. Le siège est présent à Entzheim mais la société emploie des
+                collaborateurs sur toute la France pour la maintenance, l'installation et la
+                prospection de ses produits et services.
               </p>
               <p className="job-description">
-                En tant que développeur Java, je travaille sur les solutions web comme l'ERP, aussi
-                bien en backend avec JPA/Hibernate qu'en front-end avec GWT.
+                En tant que développeur Java, je travaille sur les solutions web comme l'ERP et le
+                site externe pour les clients : aussi bien en backend avec JPA/Hibernate et MySQL
+                que côté front-end avec GWT et Domino-ui.
               </p>
             </div>
           </div>
@@ -54,15 +56,15 @@ function Experiences() {
 
               <div className="divider"></div>
               <p className="job-description">
-                La start-up <strong>La Fabrik à ID</strong> travaille avec les concessionnaires
+                La start-up <strong>La Fabrik à ID</strong> travaillait avec les concessionnaires
                 automobile notamment Mercedes pour la digitalisation du parcours client avec des
                 scanners de plaques et un CRM intégré.
               </p>
               <p className="job-description">
-                Bien que court, mon passage m'a permis de cerner les enjeux techniques et
-                fonctionnels des solutions proposées et j'ai pu participer à la mise en place du
-                nouveau CRM en intégrant les composants de création de compte de vendeurs, la
-                gestion des utilisateurs ou encore la création et la gestion d'équipes.
+                Mon passage m'a permis de cerner les enjeux techniques et fonctionnels des solutions
+                proposées et j'ai pu participer à la mise en place du nouveau CRM en intégrant les
+                composants de création de compte de vendeurs, la gestion des utilisateurs ou encore
+                la création et la gestion d'équipes.
               </p>
             </div>
           </div>
