@@ -1,24 +1,33 @@
-import profil from './assets/img/profil.jpg'
+import profil from './assets/img/profil.webp'
 import programming from './assets/img/programing-photo-1.jpg'
 import React from 'react'
 import LanguageSkill from './LanguageSkill'
 import Experiences from './Experiences'
 import Infos from './Infos'
-import Contact from './Contact'
+// import Contact from './Contact'
 import Formation from './Formation'
 import Portfolio from './Portfolio'
 
 function Accueil() {
   // eslint-disable-next-line no-unused-vars
   function nbYearsSinceBirthday() {
-    const pastDate = '1996-05-17'
-    const period = new Date(new Date().getTime() - new Date(pastDate).getTime())
-    return period.getFullYear() - 1970 // at 1970 the date calendar starts
+    const pastDate = new Date('1996-05-17')
+    const currentDate = new Date()
+    let years = currentDate.getFullYear() - pastDate.getFullYear()
+
+    if (
+      currentDate.getMonth() < pastDate.getMonth() ||
+      (currentDate.getMonth() === pastDate.getMonth() && currentDate.getDate() < pastDate.getDate())
+    ) {
+      years--
+    }
+
+    return years
   }
 
   return (
     <div id="main">
-      <section id="accueil" className="section">
+      <section id="accueil" className="section full_screen">
         <div className="parallax-container">
           <div className="container-profile">
             <div className="invisible" id="banner-profile">
@@ -26,10 +35,12 @@ function Accueil() {
                 <img id="profile-img" src={profil} alt="Portrait de Loïc" loading="lazy"></img>
               </div>
               <div id="profile-body" className="white-text lignten-3-text">
-                <h1 id="title-job">Loïc {nbYearsSinceBirthday()} ans, Analyste&nbsp;développeur</h1>
+                <h1 id="title-job">
+                  Loïc {nbYearsSinceBirthday()} ans, Développeur&nbsp;full-stack&nbsp;☕️
+                </h1>
                 <h2 className="text-justify" id="profile-text">
-                  Passionné par les nouvelles technologies et leurs apports au quotidien de
-                  chacun(e).
+                  Je suis un développeur web full stack Java, passionné par les nouvelles
+                  technologies enthousiate et faisant preuve de zèle (peut-être un peu trop)
                 </h2>
                 <div
                   id="mail-button"
@@ -54,7 +65,7 @@ function Accueil() {
       <Experiences />
       <Portfolio />
       <Infos />
-      <Contact />
+      {/*<Contact />*/}
     </div>
   )
 }
