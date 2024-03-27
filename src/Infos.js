@@ -95,11 +95,11 @@ function Infos() {
               Linkedin
             </a>
           </li>
-          <li>
+          {/*<li>
             <a className="waves-effect waves-orange btn amber darken-3" href="#contact">
               Formulaire de contact
             </a>
-          </li>
+          </li>*/}
         </ul>
       </div>
     </section>
